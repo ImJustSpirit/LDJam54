@@ -10049,3 +10049,1524 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.30-13.47.19:087][359]LogConcert: Display: Synced activity '100' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae deleted package /Game/Maps/Map_00.
 [2023.09.30-13.47.19:087][359]LogConcert: Display: Synced activity '101' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae deleted package /Game/Maps/Map_01.
 [2023.09.30-13.47.21:354][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.09.30-13.48.28:673][735]LogConcertTakeRecorder: Display: Session Client Change: Jack Connected.
+[2023.09.30-13.48.28:673][735]LogConcert: Display: User 'justspirit' (Endpoint: 956ACD53A042D0A86C5342A39EC5B7BA) joined Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.48.28:673][735]LogConcert: Display: Synced activity '102' produced by endpoint '956ACD53A042D0A86C5342A39EC5B7BA': Jack joined the session.
+[2023.09.30-13.48.44:547][351]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.09.30-13.48.44:604][351]LogContentBrowser: Creating deferred item: NewWorld
+[2023.09.30-13.48.44:630][352]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.09.30-13.48.50:264][959]LogContentBrowser: Attempting asset rename: NewWorld -> Map_Yes
+[2023.09.30-13.48.50:264][959]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.48.50:264][959]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.48.50:282][959]LogContentBrowser: End creating deferred item NewWorld
+[2023.09.30-13.48.50:283][959]AssetCheck: New page: Asset Save: Map_Yes
+[2023.09.30-13.48.50:283][959]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_Yes.Map_Yes
+[2023.09.30-13.48.50:293][960]LogConcert: Display: Synced activity '103' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/Maps/Map_Yes.
+[2023.09.30-13.48.52:030][135]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.48.52:068][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Yes" FILE="../../../../LDJam54/Content/Maps/Map_Yes.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.48.52:080][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.09.30-13.48.52:084][135]LogSavePackage: Moving output files for package: /Game/Maps/Map_Yes
+[2023.09.30-13.48.52:084][135]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_YesF758360243526E9D41C9318719964E98.tmp' to '../../../../LDJam54/Content/Maps/Map_Yes.umap'
+[2023.09.30-13.48.52:089][135]LogFileHelpers: Saving map 'Map_Yes' took 0.021
+[2023.09.30-13.48.52:098][135]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 22.9 sec)
+[2023.09.30-13.48.52:099][135]AssetCheck: New page: Asset Save: Map_Yes
+[2023.09.30-13.48.52:099][135]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_Yes.Map_Yes
+[2023.09.30-13.48.52:119][137]LogConcert: Display: Synced activity '104' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/Maps/Map_Yes.
+[2023.09.30-13.49.08:159][715]LogObjectTools: Deleting 1 worlds: /Game/Maps/Map_Yes.Map_Yes
+[2023.09.30-13.49.08:159][715]LogObjectTools: Currently 80 active worlds: /Game/Maps/Overview.Overview, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_23, /Engine/Transient.World_76, /Engine/Transient.World_77, /Engine/Transient.World_78, /Engine/Transient.World_97, /Engine/Transient.World_98, /Engine/Transient.World_99, /Engine/Transient.World_144, /Engine/Transient.World_145, /Engine/Transient.World_146, /Engine/Transient.World_147, /Engine/Transient.World_148, /Engine/Transient.World_149, /Engine/Transient.World_150, /Engine/Transient.World_151, /Engine/Transient.World_152, /Engine/Transient.World_153, /Engine/Transient.World_154, /Engine/Transient.World_155, /Engine/Transient.World_156, /Engine/Transient.World_157, /Engine/Transient.World_158, /Engine/Transient.World_159, /Engine/Transient.World_160, /Engine/Transient.World_161, /Engine/Transient.World_162, /Engine/Transient.World_163, /Engine/Transient.World_166, /Engine/Transient.World_167, /Engine/Transient.World_168, /Engine/Transient.World_169, /Engine/Transient.World_170, /Engine/Transient.World_171, /Engine/Transient.World_172, /Engine/Transient.World_173, /Engine/Transient.World_174, /Engine/Transient.World_175, /Engine/Transient.World_176, /Engine/Transient.World_177, /Engine/Transient.World_178, /Engine/Transient.World_179, /Engine/Transient.World_180, /Engine/Transient.World_181, /Engine/Transient.World_182, /Engine/Transient.World_183, /Engine/Transient.World_184, /Engine/Transient.World_185, /Engine/Transient.World_186, /Engine/Transient.World_187, /Engine/Transient.World_188, /Engine/Transient.World_189, /Engine/Transient.World_190, /Engine/Transient.World_191, /Engine/Transient.World_192, /Engine/Transient.World_193, /Engine/Transient.World_194, /Engine/Transient.World_195, /Engine/Transient.World_196, /Engine/Transient.World_197, /Engine/Transient.World_198, /Engine/Transient.World_199, /Engine/Transient.World_200, /Engine/Transient.World_201, /Engine/Transient.World_202, /Engine/Transient.World_203, /Engine/Transient.World_204, /Engine/Transient.World_205, /Engine/Transient.World_206, /Engine/Transient.World_207, /Engine/Transient.World_208, /Engine/Transient.World_209, /Engine/Transient.World_210, /Engine/Transient.World_211
+[2023.09.30-13.49.08:171][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.09.30-13.49.09:058][715]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.30-13.49.09:066][715]LogWorld: UWorld::CleanupWorld for Map_Yes, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.49.09:066][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.49.09:079][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.09.30-13.49.09:090][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.09.30-13.49.09:102][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.09.30-13.49.09:119][717]LogConcert: Display: Synced activity '105' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae deleted package /Game/Maps/Map_Yes.
+[2023.09.30-13.49.13:925][ 94]LogConcertTakeRecorder: Display: Session Client Change: Jack Disconnected.
+[2023.09.30-13.49.13:925][ 94]LogConcert: Display: User 'justspirit' (Endpoint: 956ACD53A042D0A86C5342A39EC5B7BA) left Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.49.13:926][ 94]LogConcert: Display: Synced activity '106' produced by endpoint '956ACD53A042D0A86C5342A39EC5B7BA': Jack left the session.
+[2023.09.30-13.49.25:997][148]LogSlate: Window 'Message' being destroyed
+[2023.09.30-13.49.26:002][148]Message dialog closed, result: Yes, title: Message, text: You are about to leave a session containing changes. Do you want to persist the changes?
+[2023.09.30-13.49.28:706][148]LogSlate: Window 'Persist & Submit Files' being destroyed
+[2023.09.30-13.49.28:709][148]LogConcert: [Pending] Persisting Session Changes
+[2023.09.30-13.49.28:721][148]LogConcert: [Pending] Persisting Session Changes - See Message Log
+[2023.09.30-13.49.28:721][148]LogConcert: [Success] Successfully Persisted Session Changes - Succesfully persisted session files
+[2023.09.30-13.49.28:733][148]LogConcert: Display: Disconnected from Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.49.28:734][148]LogConcertTakeRecorder: Display: Multi-user Take Recorder Session Shutdown: Ludum54
+[2023.09.30-13.49.28:734][148]SourceControl: Revision control is disabled
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Engine/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/LDJam54/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ConcertSyncClient/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ObjectMixer/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/LightMixer/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Takes/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/MultiUserTakes/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ToolPresets/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/PythonScriptPlugin/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/MeshModelingToolsetExp/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/MeshLODToolset/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/GeometryFlow/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/GeometryCollectionPlugin/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/FullBodyIK/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Dataflow/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ChaosNiagara/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ChaosSolverPlugin/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ChaosClothEditor/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ChaosCaching/' was aborted.
+[2023.09.30-13.49.28:747][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Paper2D/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/GLTFExporter/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/DatasmithContent/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/WaveTable/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Synthesis/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/RigVM/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ResonanceAudio/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Metasound/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/MeshModelingToolset/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/GeometryProcessing/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/AudioWidgets/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/AudioSynesthesia/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/SpeedTreeImporter/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/UVEditor/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ModelingToolsEditorMode/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/GeometryMode/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/BlueprintHeaderView/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Runtime/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/MediaPlate/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/MediaCompositing/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Niagara/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/IKRig/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/AnimationSharing/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ControlRigSpline/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ControlRig/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/ACLPlugin/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/SequencerScripting/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/TraceUtilities/' was aborted.
+[2023.09.30-13.49.28:748][148]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/81B5FD00407348BD99143FB0F50825BC/Sandbox/Bridge/' was aborted.
+[2023.09.30-13.49.28:765][148]LogUObjectGlobals: Reloading 11 Package(s):
+	Asset Name: /Game/Input/IMC_Default
+	Asset Name: /Game/UI/Fonts/friendlyscribbles
+	Asset Name: /Game/UI/Fonts/friendlyscribbles_Font
+	Asset Name: /Game/UI/WB_OptionMenu
+	Asset Name: /Game/UI/Fonts/Kaph-Regular
+	Asset Name: /Game/UI/Fonts/Kaph-Regular_Font
+	Asset Name: /Game/UI/WB_MainMenu
+	Asset Name: /Game/UI/Fonts/Kaph-Italic
+	Asset Name: /Game/UI/Fonts/Kaph-Italic_Font
+	Asset Name: /Game/UI/Fonts/ShantellSans
+[2023.09.30-13.49.28:776][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.09.30-13.49.29:089][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.09.30-13.49.29:150][148]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'WB_OptionMenu_C:ComponentDelegateBinding_3' in the new package '/Game/UI/WB_OptionMenu'. Any existing references to this object will be nulled out.
+[2023.09.30-13.49.29:489][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.09.30-13.49.29:802][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.09.30-13.49.29:810][148]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'WB_MainMenu_C:ComponentDelegateBinding_2' in the new package '/Game/UI/WB_MainMenu'. Any existing references to this object will be nulled out.
+[2023.09.30-13.49.30:135][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.09.30-13.49.30:440][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.09.30-13.49.30:745][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.09.30-13.49.30:832][148]LogConcert: Display: Shutdown Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.49.31:328][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.49.31:353][149]LogConcert: [Success] Successfully Persisted Session Changes - Succesfully persisted session files
+[2023.09.30-13.49.31:355][149]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.30-13.49.31:359][149]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.09.30-13.49.31:360][149]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.09.30-13.49.31:362][149]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.09.30-13.49.31:387][150]LogConcert: Display: Server SHANES-PC lost.
+[2023.09.30-13.49.31:405][151]LogConcert: Display: Server SHANES-PC discovered.
+[2023.09.30-13.49.35:673][337]LogSlate: Window 'Delete Session Confirmation' being destroyed
+[2023.09.30-13.49.35:675][337]Message dialog closed, result: Yes, title: Delete Session Confirmation, text: Do you really want to delete 1 session from 1 server?
+
+The session 
+	- Ludum54
+ will be deleted from the server SHANES-PC.
+[2023.09.30-13.49.35:675][337]LogConcert: [Pending] Deleting Session...
+[2023.09.30-13.49.35:703][338]LogConcert: [Pending] Deleting Session...
+[2023.09.30-13.49.36:418][376]LogConcert: [Success] Deleted Session 'Ludum54'
+[2023.09.30-13.49.36:442][376]LogConcert: [Success] Deleted Session 'Ludum54'
+[2023.09.30-13.49.50:336][386]LogConcert: [Pending] Creating Session 'LDJAM54'...
+[2023.09.30-13.49.50:336][386]LogConcert: [Pending] Creating Session 'LDJAM54'... - Validating Workspace...
+[2023.09.30-13.49.50:387][387]LogConcert: [Pending] Creating Session 'LDJAM54'... - Validating Workspace...
+[2023.09.30-13.49.50:569][391]LogConcert: [Pending] Creating Session 'LDJAM54'... - Attempting Remote Connection...
+[2023.09.30-13.49.50:595][392]LogConcertTakeRecorder: Display: Multi-user Take Recorder Session Startup: LDJAM54
+[2023.09.30-13.49.50:616][392]SourceControl: Revision control is disabled
+[2023.09.30-13.49.50:616][392]SourceControl: Revision control is disabled
+[2023.09.30-13.49.50:616][392]LogConcert: Display: Initialized Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.49.50:616][392]LogConcert: Display: Connecting to Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.49.50:705][394]LogConcertTakeRecorder: Display: Multi-user Take Recorder Connected to Session: LDJAM54
+[2023.09.30-13.49.50:705][394]LogConcert: Display: Connected to Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.49.50:713][394]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.09.30-13.49.50:732][395]LogConcert: Display: Synced activity '1' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae joined the session.
+[2023.09.30-13.49.50:810][398]LogConcert: [Success] Created Session 'LDJAM54'
+[2023.09.30-13.49.50:847][399]LogConcert: [Success] Created Session 'LDJAM54'
+[2023.09.30-13.49.56:379][785]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.30-13.50.23:657][518]LogSlate: Window 'Message' being destroyed
+[2023.09.30-13.50.23:660][518]Message dialog closed, result: Yes, title: Message, text: Are you sure you want to update the default settings?
+[2023.09.30-13.50.25:638][518]LogSlate: Window 'Message' being destroyed
+[2023.09.30-13.50.25:642][518]Message dialog closed, result: Yes, title: Message, text: The default configuration file for these settings is not currently writable. Would you like to make it writable?
+[2023.09.30-13.50.27:399][518]LogSlate: Window 'Message' being destroyed
+[2023.09.30-13.50.27:402][518]Message dialog closed, result: Ok, title: Message, text: The default configuration file for these settings was updated successfully. 
+
+If checked into revision control this would affect other developers.
+[2023.09.30-13.50.30:980][917]LogConcertTakeRecorder: Display: Session Client Change: Spirit Connected.
+[2023.09.30-13.50.30:981][917]LogConcert: Display: User 'justspirit' (Endpoint: 92B052C5FB47FF10A8AD78B23D8361C9) joined Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.50.30:981][917]LogConcert: Display: Synced activity '2' produced by endpoint '92B052C5FB47FF10A8AD78B23D8361C9': Spirit joined the session.
+[2023.09.30-13.50.36:686][458]LogSlate: Window 'Message' being destroyed
+[2023.09.30-13.50.36:690][458]Message dialog closed, result: Yes, title: Message, text: Are you sure you want to update the default settings?
+[2023.09.30-13.50.37:542][458]LogSlate: Window 'Message' being destroyed
+[2023.09.30-13.50.37:545][458]Message dialog closed, result: Yes, title: Message, text: The default configuration file for these settings is not currently writable. Would you like to make it writable?
+[2023.09.30-13.50.38:169][458]LogSlate: Window 'Message' being destroyed
+[2023.09.30-13.50.38:172][458]Message dialog closed, result: Ok, title: Message, text: The default configuration file for these settings was updated successfully. 
+
+If checked into revision control this would affect other developers.
+[2023.09.30-13.50.41:977][821]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.09.30-13.50.41:984][821]LogContentBrowser: Creating deferred item: NewWorld
+[2023.09.30-13.50.41:992][822]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.09.30-13.50.46:097][247]LogContentBrowser: Attempting asset rename: NewWorld -> Map_PLEASE
+[2023.09.30-13.50.46:097][247]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.50.46:097][247]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.50.46:115][247]LogContentBrowser: End creating deferred item NewWorld
+[2023.09.30-13.50.46:117][247]AssetCheck: New page: Asset Save: Map_PLEASE
+[2023.09.30-13.50.46:117][247]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_PLEASE.Map_PLEASE
+[2023.09.30-13.50.46:126][248]LogConcert: Display: Synced activity '3' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae added package /Game/Maps/Map_PLEASE.
+[2023.09.30-13.50.48:073][453]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.50.48:112][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_PLEASE" FILE="../../../../LDJam54/Content/Maps/Map_PLEASE.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.50.48:124][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.09.30-13.50.48:129][453]LogSavePackage: Moving output files for package: /Game/Maps/Map_PLEASE
+[2023.09.30-13.50.48:129][453]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_PLEASE423B98D14577B8F07063F091FC3A0D22.tmp' to '../../../../LDJam54/Content/Maps/Map_PLEASE.umap'
+[2023.09.30-13.50.48:134][453]LogFileHelpers: Saving map 'Map_PLEASE' took 0.023
+[2023.09.30-13.50.48:145][453]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 22.9 sec)
+[2023.09.30-13.50.48:146][453]AssetCheck: New page: Asset Save: Map_PLEASE
+[2023.09.30-13.50.48:146][453]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_PLEASE.Map_PLEASE
+[2023.09.30-13.50.48:177][456]LogConcert: Display: Synced activity '4' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae saved package /Game/Maps/Map_PLEASE.
+[2023.09.30-13.54.01:663][896]LogContentBrowser: Attempting asset rename: Map_PLEASE -> Map_00
+[2023.09.30-13.54.01:693][896]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.54.01:724][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_00" FILE="../../../../LDJam54/Content/Maps/Map_00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.54.01:735][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.09.30-13.54.01:741][896]LogSavePackage: Moving output files for package: /Game/Maps/Map_00
+[2023.09.30-13.54.01:741][896]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_00CD607A974AD1A1D74B961CBF26FDE122.tmp' to '../../../../LDJam54/Content/Maps/Map_00.umap'
+[2023.09.30-13.54.01:746][896]LogFileHelpers: Saving map 'Map_00' took 0.022
+[2023.09.30-13.54.01:747][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_PLEASE" FILE="../../../../LDJam54/Content/Maps/Map_PLEASE.umap" SILENT=true
+[2023.09.30-13.54.01:747][896]LogSavePackage: Moving output files for package: /Game/Maps/Map_PLEASE
+[2023.09.30-13.54.01:747][896]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_PLEASED54478C04CEFF88E0E9E6D860055EBB7.tmp' to '../../../../LDJam54/Content/Maps/Map_PLEASE.umap'
+[2023.09.30-13.54.01:759][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 23.0 sec)
+[2023.09.30-13.54.01:762][896]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-13.54.01:762][896]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.54.01:762][896]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Maps/Map_PLEASE.Map_PLEASE
+[2023.09.30-13.54.01:774][897]LogConcert: Display: Synced activity '5' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae locked /Game/Maps/Map_00.
+[2023.09.30-13.54.01:808][899]LogConcert: Display: Synced activity '6' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae saved package /Game/Maps/Map_00.
+[2023.09.30-13.54.01:808][899]LogConcert: Display: Synced activity '7' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae unlocked /Game/Maps/Map_00.
+[2023.09.30-13.54.01:809][899]LogConcert: Display: Synced activity '8' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae renamed package /Game/Maps/Map_PLEASE to /Game/Maps/Map_00.
+[2023.09.30-13.54.05:580][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.09.30-13.54.05:582][240]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.54.05:582][240]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/Maps/Map_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.54.05:582][240]LightingResults: New page: Lighting Build
+[2023.09.30-13.54.05:582][240]LoadErrors: New page: Loading map: Map_00.umap
+[2023.09.30-13.54.05:611][240]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.54.05:611][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.54.05:612][240]MapCheck: New page: Map Check
+[2023.09.30-13.54.05:612][240]LightingResults: New page: Lighting Build
+[2023.09.30-13.54.05:621][240]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.54.05:642][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.09.30-13.54.05:646][240]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.54.05:646][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.54.05:658][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.09.30-13.54.05:669][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.09.30-13.54.05:672][240]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_00'.
+[2023.09.30-13.54.05:672][240]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.54.05:672][240]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.54.05:672][240]LogAIModule: Creating AISystem for world Map_00
+[2023.09.30-13.54.05:684][240]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.54.05:697][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.09.30-13.54.05:699][240]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.54.05:699][240]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.069ms to complete.
+[2023.09.30-13.54.15:185][ 65]LogEditor: Attempting to add actor of class 'SkyLight' to level at 0.00,0.00,0.00
+[2023.09.30-13.54.15:219][ 65]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.30-13.54.15:280][ 68]LogConcert: Display: Synced activity '9' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae created SkyLight_0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.15:603][ 98]LogEditor: Attempting to add actor of class 'DirectionalLight' to level at 0.00,0.00,0.00
+[2023.09.30-13.54.15:710][101]LogConcert: Display: Synced activity '10' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae created DirectionalLight_0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.15:956][124]LogEditor: Attempting to add actor of class 'SkyAtmosphere' to level at 0.00,0.00,0.00
+[2023.09.30-13.54.16:030][128]LogConcert: Display: Synced activity '11' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae created SkyAtmosphere_0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.16:296][152]LogEditor: Attempting to add actor of class 'VolumetricCloud' to level at 0.00,0.00,0.00
+[2023.09.30-13.54.16:358][155]LogConcert: Display: Synced activity '12' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae created VolumetricCloud_0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.16:856][200]LogEditor: Attempting to add actor of class 'ExponentialHeightFog' to level at 0.00,0.00,0.00
+[2023.09.30-13.54.16:935][204]LogConcert: Display: Synced activity '13' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae created ExponentialHeightFog_0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.18:579][352]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2023.09.30-13.54.18:596][352]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2023.09.30-13.54.21:622][710]LogConcert: Display: Synced activity '14' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae locked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.23:581][945]LogConcert: Display: Synced activity '15' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.23:581][945]LogConcert: Display: Synced activity '16' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae unlocked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.30:713][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.54.30:739][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_00" FILE="../../../../LDJam54/Content/Maps/Map_00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.54.30:762][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.09.30-13.54.30:768][768]LogSavePackage: Moving output files for package: /Game/Maps/Map_00
+[2023.09.30-13.54.30:769][768]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_0036FF0AE447D184C1D33DAA978A7F20CC.tmp' to '../../../../LDJam54/Content/Maps/Map_00.umap'
+[2023.09.30-13.54.30:774][768]LogFileHelpers: Saving map 'Map_00' took 0.035
+[2023.09.30-13.54.30:783][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 23.1 sec)
+[2023.09.30-13.54.30:787][768]AssetCheck: New page: Asset Save: Map_00
+[2023.09.30-13.54.30:787][768]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.54.30:829][770]LogConcert: Display: Synced activity '17' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae saved package /Game/Maps/Map_00.
+[2023.09.30-13.54.34:518][189]LogConcertTakeRecorder: Display: Session Client Change: Spirit Disconnected.
+[2023.09.30-13.54.34:520][189]LogConcert: Display: User 'justspirit' (Endpoint: 92B052C5FB47FF10A8AD78B23D8361C9) left Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.54.34:520][189]LogConcert: Display: Synced activity '18' produced by endpoint '92B052C5FB47FF10A8AD78B23D8361C9': Spirit left the session.
+[2023.09.30-13.54.38:865][595]LogConcert: Display: Synced activity '19' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.54.44:082][200]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.09.30-13.54.59:763][927]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2023.09.30-13.54.59:763][927]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2023.09.30-13.54.59:764][927]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/Maps/Map_00.Map_00:PersistentLevel.PostProcessVolume_0
+[2023.09.30-13.54.59:765][927]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/Maps/Map_00.Map_00:PersistentLevel.PostProcessVolume_0
+[2023.09.30-13.55.00:862][ 54]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2023.09.30-13.55.00:862][ 54]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2023.09.30-13.55.00:863][ 54]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/Maps/Map_00.Map_00:PersistentLevel.PostProcessVolume_1
+[2023.09.30-13.55.00:864][ 54]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/Maps/Map_00.Map_00:PersistentLevel.PostProcessVolume_1
+[2023.09.30-13.55.01:015][ 58]LogConcert: Display: Synced activity '20' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae created PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.05:008][530]LogConcert: Display: Synced activity '21' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.08:274][921]LogConcert: Display: Synced activity '22' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.08:660][962]LogConcert: Display: Synced activity '23' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.09:413][ 49]LogConcert: Display: Synced activity '24' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.09:914][103]LogConcert: Display: Synced activity '25' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.15:503][762]LogConcertTakeRecorder: Display: Session Client Change: Spirit Connected.
+[2023.09.30-13.55.15:503][762]LogConcert: Display: User 'justspirit' (Endpoint: D635624CB94CA08AFE633ABE52E0EB9F) joined Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.55.15:503][762]LogConcert: Display: Synced activity '26' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit joined the session.
+[2023.09.30-13.55.16:419][871]LogConcert: Display: Synced activity '27' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.16:832][920]LogConcert: Display: Synced activity '28' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.19:203][194]LogConcert: Display: Synced activity '29' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.19:945][280]LogConcert: Display: Synced activity '30' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.55.22:066][517]LogConcert: Display: Synced activity '31' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified None in None, plus -1 other action.
+[2023.09.30-13.55.23:469][677]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.55.23:493][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_00" FILE="../../../../LDJam54/Content/Maps/Map_00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.55.23:519][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.09.30-13.55.23:525][677]LogSavePackage: Moving output files for package: /Game/Maps/Map_00
+[2023.09.30-13.55.23:525][677]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_0044A966B642939B90FED55F940FD2B941.tmp' to '../../../../LDJam54/Content/Maps/Map_00.umap'
+[2023.09.30-13.55.23:529][677]LogFileHelpers: Saving map 'Map_00' took 0.037
+[2023.09.30-13.55.23:538][677]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 23.1 sec)
+[2023.09.30-13.55.23:539][677]AssetCheck: New page: Asset Save: Map_00
+[2023.09.30-13.55.23:539][677]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.55.23:582][679]LogConcert: Display: Synced activity '32' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae saved package /Game/Maps/Map_00.
+[2023.09.30-13.55.28:595][217]LogConcert: Display: Synced activity '33' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.30:063][367]LogConcert: Display: Synced activity '34' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae locked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.30:260][389]LogConcert: Display: Synced activity '35' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.30:261][389]LogConcert: Display: Synced activity '36' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae unlocked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.32:991][707]LogConcert: Display: Synced activity '37' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae locked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.34:310][864]LogConcert: Display: Synced activity '38' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.34:310][864]LogConcert: Display: Synced activity '39' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae unlocked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.35:046][941]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.55.35:074][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_00" FILE="../../../../LDJam54/Content/Maps/Map_00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.55.35:096][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.09.30-13.55.35:103][941]LogSavePackage: Moving output files for package: /Game/Maps/Map_00
+[2023.09.30-13.55.35:103][941]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_00F80672D5496FC2D5EB00F0A54743C536.tmp' to '../../../../LDJam54/Content/Maps/Map_00.umap'
+[2023.09.30-13.55.35:107][941]LogFileHelpers: Saving map 'Map_00' took 0.034
+[2023.09.30-13.55.35:126][941]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 23.2 sec)
+[2023.09.30-13.55.35:126][941]AssetCheck: New page: Asset Save: Map_00
+[2023.09.30-13.55.35:126][941]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.55.35:165][944]LogConcert: Display: Synced activity '40' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae saved package /Game/Maps/Map_00.
+[2023.09.30-13.55.38:192][306]LogConcert: Display: Synced activity '41' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae locked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.42:827][862]LogConcert: Display: Synced activity '42' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.55.42:827][862]LogConcert: Display: Synced activity '43' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae unlocked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.11:547][245]LogConcert: Display: Synced activity '44' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae locked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.16:669][832]LogConcert: Display: Synced activity '45' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.16:670][832]LogConcert: Display: Synced activity '46' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae unlocked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.21:383][388]LogConcert: Display: Synced activity '47' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae locked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.23:617][656]LogConcert: Display: Synced activity '48' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Brush_1 in /Game/Maps/Map_00.
+[2023.09.30-13.56.24:857][804]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.Brush_1.Model_0'
+[2023.09.30-13.56.24:881][806]LogConcert: Display: Synced activity '49' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.24:881][806]LogConcert: Display: Synced activity '50' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae unlocked DirectionalLight_0.LightComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.25:970][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.56.25:995][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_00" FILE="../../../../LDJam54/Content/Maps/Map_00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.56.26:021][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.09.30-13.56.26:026][933]LogSavePackage: Moving output files for package: /Game/Maps/Map_00
+[2023.09.30-13.56.26:027][933]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_00E572746A4288ADBC5723D9BE7699A6E2.tmp' to '../../../../LDJam54/Content/Maps/Map_00.umap'
+[2023.09.30-13.56.26:031][933]LogFileHelpers: Saving map 'Map_00' took 0.037
+[2023.09.30-13.56.26:040][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 23.3 sec)
+[2023.09.30-13.56.26:042][933]AssetCheck: New page: Asset Save: Map_00
+[2023.09.30-13.56.26:042][933]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.56.26:080][936]LogConcert: Display: Synced activity '51' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae saved package /Game/Maps/Map_00.
+[2023.09.30-13.56.34:854][987]LogConcert: Display: Synced activity '52' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Brush_2 in /Game/Maps/Map_00.
+[2023.09.30-13.56.34:859][987]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.Brush_2.Model_0'
+[2023.09.30-13.56.38:953][472]LogConcert: Display: Synced activity '53' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit saved package /Game/Maps/Map_00.
+[2023.09.30-13.56.38:975][474]LightingResults: New page: Lighting Build
+[2023.09.30-13.56.38:989][474]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.56.38:989][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.56.38:989][474]MapCheck: New page: Map Check
+[2023.09.30-13.56.38:989][474]LightingResults: New page: Lighting Build
+[2023.09.30-13.56.39:000][474]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.56.39:002][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.09.30-13.56.39:003][474]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.56.39:003][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.56.39:004][474]LogAIModule: Creating AISystem for world Untitled
+[2023.09.30-13.56.39:005][474]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.09.30-13.56.39:020][474]LoadErrors: New page: New Map
+[2023.09.30-13.56.39:025][474]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.56.39:027][474]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.56.39:027][474]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/Maps/Map_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.56.39:027][474]LightingResults: New page: Lighting Build
+[2023.09.30-13.56.39:027][474]LoadErrors: New page: Loading map: Map_00.umap
+[2023.09.30-13.56.39:039][474]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.56.39:039][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.56.39:040][474]MapCheck: New page: Map Check
+[2023.09.30-13.56.39:040][474]LightingResults: New page: Lighting Build
+[2023.09.30-13.56.39:050][474]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.56.39:052][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.09.30-13.56.39:054][474]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.56.39:054][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.56.39:065][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.09.30-13.56.39:076][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.09.30-13.56.39:080][474]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_00'.
+[2023.09.30-13.56.39:080][474]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.56.39:080][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.56.39:080][474]LogAIModule: Creating AISystem for world Map_00
+[2023.09.30-13.56.39:093][474]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.56.39:105][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.09.30-13.56.39:107][474]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.56.39:107][474]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.073ms to complete.
+[2023.09.30-13.56.41:634][766]LogConcert: Display: Synced activity '54' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit locked Brush_2.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.42:744][873]LogConcert: Display: Synced activity '55' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit modified Brush_2.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.42:745][873]LogConcert: Display: Synced activity '56' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit unlocked Brush_2.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.42:759][873]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_2'
+[2023.09.30-13.56.42:759][873]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_3'
+[2023.09.30-13.56.42:759][873]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_4'
+[2023.09.30-13.56.42:759][873]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_2'
+[2023.09.30-13.56.42:759][873]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_3'
+[2023.09.30-13.56.42:759][873]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_4'
+[2023.09.30-13.56.47:307][313]LogConcert: Display: Synced activity '57' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Polys_3 in /Game/Maps/Map_00.
+[2023.09.30-13.56.47:322][313]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_5'
+[2023.09.30-13.56.47:322][313]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_6'
+[2023.09.30-13.56.47:322][313]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_7'
+[2023.09.30-13.56.47:322][313]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_5'
+[2023.09.30-13.56.47:322][313]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_6'
+[2023.09.30-13.56.47:322][313]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_7'
+[2023.09.30-13.56.54:376][ 42]LogConcert: Display: Synced activity '58' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit modified Brush_2.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.54:379][ 42]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_8'
+[2023.09.30-13.56.54:379][ 42]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_9'
+[2023.09.30-13.56.54:379][ 42]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_10'
+[2023.09.30-13.56.54:379][ 42]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_8'
+[2023.09.30-13.56.54:379][ 42]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_9'
+[2023.09.30-13.56.54:379][ 42]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_10'
+[2023.09.30-13.56.55:213][142]LogConcert: Display: Synced activity '59' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit modified Brush_2.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.55:215][142]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_11'
+[2023.09.30-13.56.55:215][142]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_12'
+[2023.09.30-13.56.55:215][142]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_13'
+[2023.09.30-13.56.55:215][142]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_14'
+[2023.09.30-13.56.55:216][142]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_11'
+[2023.09.30-13.56.55:216][142]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_12'
+[2023.09.30-13.56.55:216][142]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_13'
+[2023.09.30-13.56.55:216][142]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_14'
+[2023.09.30-13.56.55:681][197]LogConcert: Display: Synced activity '60' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.56.55:945][228]LogConcert: Display: Synced activity '61' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.56.56:952][301]LogConcert: Display: Synced activity '62' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit modified Brush_2.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.56.56:978][301]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_15'
+[2023.09.30-13.56.56:978][301]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_16'
+[2023.09.30-13.56.56:978][301]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_17'
+[2023.09.30-13.56.56:978][301]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_18'
+[2023.09.30-13.56.56:978][301]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_15'
+[2023.09.30-13.56.56:978][301]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_16'
+[2023.09.30-13.56.56:978][301]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_17'
+[2023.09.30-13.56.56:978][301]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_18'
+[2023.09.30-13.56.57:013][304]LogConcert: Display: Synced activity '63' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.57.02:155][911]LogConcert: Display: Synced activity '64' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae modified PostProcessVolume_1 in /Game/Maps/Map_00.
+[2023.09.30-13.57.03:670][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.57.03:702][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_00" FILE="../../../../LDJam54/Content/Maps/Map_00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.57.03:725][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.09.30-13.57.03:732][ 80]LogSavePackage: Moving output files for package: /Game/Maps/Map_00
+[2023.09.30-13.57.03:733][ 80]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_000EF2D4534E6EF2EAB791498192CB4FED.tmp' to '../../../../LDJam54/Content/Maps/Map_00.umap'
+[2023.09.30-13.57.03:738][ 80]LogFileHelpers: Saving map 'Map_00' took 0.037
+[2023.09.30-13.57.03:747][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 23.4 sec)
+[2023.09.30-13.57.03:752][ 80]AssetCheck: New page: Asset Save: Map_00
+[2023.09.30-13.57.03:752][ 80]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.57.03:783][ 82]LogConcert: Display: Synced activity '65' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae saved package /Game/Maps/Map_00.
+[2023.09.30-13.57.19:194][928]LogConcert: Display: Synced activity '66' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit deleted Brush_2 in /Game/Maps/Map_00.
+[2023.09.30-13.57.22:064][249]LogConcert: Display: Synced activity '67' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit deleted Brush_1 in /Game/Maps/Map_00.
+[2023.09.30-13.57.23:903][444]LogEditorViewport: Clicking Background
+[2023.09.30-13.57.24:777][548]LogConcert: Display: Synced activity '68' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit saved package /Game/Maps/Map_00.
+[2023.09.30-13.57.24:797][550]LightingResults: New page: Lighting Build
+[2023.09.30-13.57.24:811][550]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.57.24:811][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.57.24:811][550]MapCheck: New page: Map Check
+[2023.09.30-13.57.24:811][550]LightingResults: New page: Lighting Build
+[2023.09.30-13.57.24:821][550]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.57.24:824][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.09.30-13.57.24:827][550]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.57.24:827][550]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.57.24:827][550]LogAIModule: Creating AISystem for world Untitled
+[2023.09.30-13.57.24:828][550]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.09.30-13.57.24:844][550]LoadErrors: New page: New Map
+[2023.09.30-13.57.24:847][550]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.57.24:848][550]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.57.24:849][550]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/Maps/Map_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.57.24:849][550]LightingResults: New page: Lighting Build
+[2023.09.30-13.57.24:849][550]LoadErrors: New page: Loading map: Map_00.umap
+[2023.09.30-13.57.24:864][550]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.57.24:864][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.57.24:864][550]MapCheck: New page: Map Check
+[2023.09.30-13.57.24:864][550]LightingResults: New page: Lighting Build
+[2023.09.30-13.57.24:873][550]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.57.24:875][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.09.30-13.57.24:877][550]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.57.24:877][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.57.24:889][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.09.30-13.57.24:899][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.09.30-13.57.24:903][550]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_00'.
+[2023.09.30-13.57.24:903][550]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.57.24:903][550]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.57.24:903][550]LogAIModule: Creating AISystem for world Map_00
+[2023.09.30-13.57.24:915][550]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.57.24:927][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.09.30-13.57.24:930][550]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.57.24:930][550]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.087ms to complete.
+[2023.09.30-13.57.28:684][983]LogConcert: Display: Synced activity '69' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Brush_3 in /Game/Maps/Map_00.
+[2023.09.30-13.57.28:685][983]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.Brush_3.Model_0'
+[2023.09.30-13.57.33:895][602]LogConcert: Display: Synced activity '70' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit saved package /Game/Maps/Map_00.
+[2023.09.30-13.57.33:912][603]LightingResults: New page: Lighting Build
+[2023.09.30-13.57.33:932][603]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.57.33:932][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.57.33:932][603]MapCheck: New page: Map Check
+[2023.09.30-13.57.33:932][603]LightingResults: New page: Lighting Build
+[2023.09.30-13.57.33:943][603]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.57.33:945][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.09.30-13.57.33:946][603]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.57.33:946][603]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.57.33:946][603]LogAIModule: Creating AISystem for world Untitled
+[2023.09.30-13.57.33:947][603]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.09.30-13.57.33:962][603]LoadErrors: New page: New Map
+[2023.09.30-13.57.33:966][603]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.57.33:967][603]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.57.33:967][603]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/Maps/Map_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.57.33:967][603]LightingResults: New page: Lighting Build
+[2023.09.30-13.57.33:967][603]LoadErrors: New page: Loading map: Map_00.umap
+[2023.09.30-13.57.33:980][603]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.57.33:980][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.57.33:980][603]MapCheck: New page: Map Check
+[2023.09.30-13.57.33:980][603]LightingResults: New page: Lighting Build
+[2023.09.30-13.57.33:991][603]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.57.33:993][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.09.30-13.57.33:995][603]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.57.33:995][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.57.34:006][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.09.30-13.57.34:017][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.09.30-13.57.34:020][603]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_00'.
+[2023.09.30-13.57.34:020][603]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.57.34:020][603]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.57.34:021][603]LogAIModule: Creating AISystem for world Map_00
+[2023.09.30-13.57.34:033][603]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.57.34:045][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.09.30-13.57.34:048][603]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.57.34:048][603]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.072ms to complete.
+[2023.09.30-13.57.46:693][107]LogConcert: Display: Synced activity '71' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit modified Brush_3.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.57.46:699][107]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_2'
+[2023.09.30-13.57.46:699][107]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_3'
+[2023.09.30-13.57.46:699][107]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_4'
+[2023.09.30-13.57.46:699][107]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_2'
+[2023.09.30-13.57.46:699][107]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_3'
+[2023.09.30-13.57.46:699][107]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_4'
+[2023.09.30-13.57.47:309][180]LogConcert: Display: Synced activity '72' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit modified Brush_3.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.57.47:315][180]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_5'
+[2023.09.30-13.57.47:315][180]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_6'
+[2023.09.30-13.57.47:315][180]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_7'
+[2023.09.30-13.57.47:315][180]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_8'
+[2023.09.30-13.57.47:315][180]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_5'
+[2023.09.30-13.57.47:315][180]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_6'
+[2023.09.30-13.57.47:315][180]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_7'
+[2023.09.30-13.57.47:315][180]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_8'
+[2023.09.30-13.57.49:715][468]LogConcert: Display: Synced activity '73' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit modified Brush_3.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.57.49:721][468]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_9'
+[2023.09.30-13.57.49:721][468]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_10'
+[2023.09.30-13.57.49:721][468]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_11'
+[2023.09.30-13.57.49:721][468]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_12'
+[2023.09.30-13.57.49:721][468]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_9'
+[2023.09.30-13.57.49:721][468]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_10'
+[2023.09.30-13.57.49:721][468]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_11'
+[2023.09.30-13.57.49:721][468]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_12'
+[2023.09.30-13.57.57:537][404]LogConcert: Display: Synced activity '74' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Polys_7 in /Game/Maps/Map_00.
+[2023.09.30-13.57.57:543][404]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_13'
+[2023.09.30-13.57.57:543][404]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_14'
+[2023.09.30-13.57.57:543][404]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_15'
+[2023.09.30-13.57.57:543][404]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_16'
+[2023.09.30-13.57.57:543][404]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_13'
+[2023.09.30-13.57.57:543][404]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_14'
+[2023.09.30-13.57.57:543][404]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_15'
+[2023.09.30-13.57.57:543][404]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_16'
+[2023.09.30-13.58.02:771][ 29]LogConcert: Display: Synced activity '75' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Polys_8 in /Game/Maps/Map_00.
+[2023.09.30-13.58.02:774][ 29]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_17'
+[2023.09.30-13.58.02:774][ 29]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_18'
+[2023.09.30-13.58.02:774][ 29]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_19'
+[2023.09.30-13.58.02:774][ 29]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_20'
+[2023.09.30-13.58.02:775][ 29]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_17'
+[2023.09.30-13.58.02:775][ 29]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_18'
+[2023.09.30-13.58.02:775][ 29]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_19'
+[2023.09.30-13.58.02:775][ 29]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_20'
+[2023.09.30-13.58.06:167][436]LogConcert: Display: Synced activity '76' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Polys_9 in /Game/Maps/Map_00.
+[2023.09.30-13.58.06:171][436]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_21'
+[2023.09.30-13.58.06:171][436]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_22'
+[2023.09.30-13.58.06:171][436]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_23'
+[2023.09.30-13.58.06:171][436]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_24'
+[2023.09.30-13.58.06:171][436]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_21'
+[2023.09.30-13.58.06:171][436]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_22'
+[2023.09.30-13.58.06:171][436]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_23'
+[2023.09.30-13.58.06:171][436]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_24'
+[2023.09.30-13.58.09:173][796]LogConcert: Display: Synced activity '77' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Polys_10 in /Game/Maps/Map_00.
+[2023.09.30-13.58.09:178][796]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_25'
+[2023.09.30-13.58.09:178][796]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_26'
+[2023.09.30-13.58.09:178][796]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_27'
+[2023.09.30-13.58.09:178][796]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_28'
+[2023.09.30-13.58.09:178][796]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_25'
+[2023.09.30-13.58.09:178][796]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_26'
+[2023.09.30-13.58.09:178][796]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_27'
+[2023.09.30-13.58.09:178][796]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_28'
+[2023.09.30-13.58.10:845][996]LogConcert: Display: Synced activity '78' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit created Polys_11 in /Game/Maps/Map_00.
+[2023.09.30-13.58.10:850][996]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_29'
+[2023.09.30-13.58.10:850][996]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_30'
+[2023.09.30-13.58.10:850][996]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_31'
+[2023.09.30-13.58.10:850][996]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_32'
+[2023.09.30-13.58.10:851][996]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_29'
+[2023.09.30-13.58.10:851][996]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_30'
+[2023.09.30-13.58.10:851][996]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_31'
+[2023.09.30-13.58.10:851][996]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_32'
+[2023.09.30-13.58.19:068][979]LogConcert: Display: Synced activity '79' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit modified Brush_3.BrushComponent0 in /Game/Maps/Map_00.
+[2023.09.30-13.58.19:069][979]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_33'
+[2023.09.30-13.58.19:069][979]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_34'
+[2023.09.30-13.58.19:069][979]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_35'
+[2023.09.30-13.58.19:069][979]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_33'
+[2023.09.30-13.58.19:069][979]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_34'
+[2023.09.30-13.58.19:070][979]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/Map_00.Map_00:PersistentLevel.ModelComponent_35'
+[2023.09.30-13.58.22:786][425]LogConcert: Display: Synced activity '80' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit saved package /Game/Maps/Map_00.
+[2023.09.30-13.58.22:809][427]LightingResults: New page: Lighting Build
+[2023.09.30-13.58.22:878][427]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.58.22:878][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.58.22:878][427]MapCheck: New page: Map Check
+[2023.09.30-13.58.22:878][427]LightingResults: New page: Lighting Build
+[2023.09.30-13.58.22:888][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.58.22:890][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.09.30-13.58.22:891][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.58.22:891][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.58.22:892][427]LogAIModule: Creating AISystem for world Untitled
+[2023.09.30-13.58.22:893][427]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.09.30-13.58.22:907][427]LoadErrors: New page: New Map
+[2023.09.30-13.58.22:912][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.58.22:913][427]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.58.22:913][427]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/Maps/Map_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.58.22:913][427]LightingResults: New page: Lighting Build
+[2023.09.30-13.58.22:913][427]LoadErrors: New page: Loading map: Map_00.umap
+[2023.09.30-13.58.22:926][427]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.58.22:926][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.58.22:926][427]MapCheck: New page: Map Check
+[2023.09.30-13.58.22:926][427]LightingResults: New page: Lighting Build
+[2023.09.30-13.58.22:936][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.58.22:938][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.09.30-13.58.22:940][427]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.58.22:940][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.58.22:952][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.09.30-13.58.22:963][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.09.30-13.58.22:966][427]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_00'.
+[2023.09.30-13.58.22:967][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.58.22:967][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.58.22:967][427]LogAIModule: Creating AISystem for world Map_00
+[2023.09.30-13.58.22:979][427]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.58.22:991][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.09.30-13.58.22:996][427]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.58.22:996][427]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.074ms to complete.
+[2023.09.30-13.58.56:143][353]LogConcertTakeRecorder: Display: Session Client Change: Spirit Disconnected.
+[2023.09.30-13.58.56:143][353]LogConcert: Display: User 'justspirit' (Endpoint: D635624CB94CA08AFE633ABE52E0EB9F) left Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.58.56:143][353]LogConcert: Display: Synced activity '81' produced by endpoint 'D635624CB94CA08AFE633ABE52E0EB9F': Spirit left the session.
+[2023.09.30-13.58.58:792][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.58.58:821][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_00" FILE="../../../../LDJam54/Content/Maps/Map_00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.58.58:844][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.09.30-13.58.58:850][655]LogSavePackage: Moving output files for package: /Game/Maps/Map_00
+[2023.09.30-13.58.58:851][655]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_001A8B81954356304988AFB6ADC0E1335A.tmp' to '../../../../LDJam54/Content/Maps/Map_00.umap'
+[2023.09.30-13.58.58:855][655]LogFileHelpers: Saving map 'Map_00' took 0.035
+[2023.09.30-13.58.58:864][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 23.4 sec)
+[2023.09.30-13.58.58:868][655]AssetCheck: New page: Asset Save: Map_00
+[2023.09.30-13.58.58:868][655]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.58.58:910][657]LogConcert: Display: Synced activity '82' produced by endpoint 'F81B85454022A9D54ED282B976491736': hsnae saved package /Game/Maps/Map_00.
+[2023.09.30-13.59.03:466][951]LogSlate: Window 'Message' being destroyed
+[2023.09.30-13.59.03:471][951]Message dialog closed, result: Yes, title: Message, text: You are about to leave a session containing changes. Do you want to persist the changes?
+[2023.09.30-13.59.05:262][951]LogSlate: Window 'Persist & Submit Files' being destroyed
+[2023.09.30-13.59.05:267][951]LogConcert: [Pending] Persisting Session Changes
+[2023.09.30-13.59.05:268][951]LogConcert: [Pending] Persisting Session Changes - See Message Log
+[2023.09.30-13.59.05:268][951]LogConcert: [Success] Successfully Persisted Session Changes - Succesfully persisted session files
+[2023.09.30-13.59.05:280][951]LogConcert: Display: Disconnected from Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.59.05:282][951]LogConcertTakeRecorder: Display: Multi-user Take Recorder Session Shutdown: LDJAM54
+[2023.09.30-13.59.05:282][951]SourceControl: Revision control is disabled
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Engine/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/LDJam54/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ConcertSyncClient/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ObjectMixer/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/LightMixer/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Takes/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/MultiUserTakes/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ToolPresets/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/PythonScriptPlugin/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/MeshModelingToolsetExp/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/MeshLODToolset/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/GeometryFlow/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/GeometryCollectionPlugin/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/FullBodyIK/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Dataflow/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ChaosNiagara/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ChaosSolverPlugin/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ChaosClothEditor/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ChaosCaching/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Paper2D/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/GLTFExporter/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/DatasmithContent/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/WaveTable/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Synthesis/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/RigVM/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ResonanceAudio/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Metasound/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/MeshModelingToolset/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/GeometryProcessing/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/AudioWidgets/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/AudioSynesthesia/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/SpeedTreeImporter/' was aborted.
+[2023.09.30-13.59.05:290][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/UVEditor/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ModelingToolsEditorMode/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/GeometryMode/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/BlueprintHeaderView/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Runtime/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/MediaPlate/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/MediaCompositing/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Niagara/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/IKRig/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/AnimationSharing/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ControlRigSpline/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ControlRig/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/ACLPlugin/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/SequencerScripting/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/TraceUtilities/' was aborted.
+[2023.09.30-13.59.05:291][951]LogDirectoryWatcher: A directory notification for 'Z:/Unreal/LDJam54/Intermediate/Concert/MultiUser/8A5C65E6441C5A903CF3DCA378F5DB33/FB7429C64B65A50D20D48DBFC7192878/Sandbox/Bridge/' was aborted.
+[2023.09.30-13.59.05:299][951]LightingResults: New page: Lighting Build
+[2023.09.30-13.59.05:312][951]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.05:312][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.59.05:312][951]MapCheck: New page: Map Check
+[2023.09.30-13.59.05:312][951]LightingResults: New page: Lighting Build
+[2023.09.30-13.59.05:322][951]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.59.05:324][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.09.30-13.59.05:325][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.59.05:325][951]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.59.05:325][951]LogAIModule: Creating AISystem for world Untitled
+[2023.09.30-13.59.05:327][951]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.09.30-13.59.05:353][951]LoadErrors: New page: New Map
+[2023.09.30-13.59.05:356][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.59.05:357][951]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.59.05:357][951]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/Maps/Map_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.59.05:357][951]LightingResults: New page: Lighting Build
+[2023.09.30-13.59.05:357][951]LoadErrors: New page: Loading map: Map_00.umap
+[2023.09.30-13.59.05:371][951]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.05:371][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.59.05:371][951]MapCheck: New page: Map Check
+[2023.09.30-13.59.05:371][951]LightingResults: New page: Lighting Build
+[2023.09.30-13.59.05:381][951]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.59.05:383][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.09.30-13.59.05:385][951]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.05:385][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.59.05:396][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.09.30-13.59.05:408][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.09.30-13.59.05:412][951]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_00'.
+[2023.09.30-13.59.05:412][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.59.05:412][951]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.59.05:413][951]LogAIModule: Creating AISystem for world Map_00
+[2023.09.30-13.59.05:433][951]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.59.05:447][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.09.30-13.59.05:450][951]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.59.05:450][951]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.057ms to complete.
+[2023.09.30-13.59.05:460][951]LogConcert: Display: Shutdown Concert session 'LDJAM54' (Id: FB7429C64B65A50D20D48DBFC7192878, Owner: shane).
+[2023.09.30-13.59.05:993][952]LogConcert: [Success] Successfully Persisted Session Changes - Succesfully persisted session files
+[2023.09.30-13.59.06:005][953]LogConcert: Display: Server SHANES-PC lost.
+[2023.09.30-13.59.06:085][954]LogConcert: Display: Server SHANES-PC discovered.
+[2023.09.30-13.59.08:372][ 71]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:372][ 71]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:477][ 75]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:477][ 75]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:583][ 81]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:583][ 81]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:690][ 88]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:690][ 88]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:797][ 93]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:797][ 93]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:903][ 99]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.08:903][ 99]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:006][105]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:006][105]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:106][109]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:106][109]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:206][113]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:206][113]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:311][118]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:311][118]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:374][120]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:417][122]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:417][122]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:482][125]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:524][126]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:524][126]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:587][130]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:629][132]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:629][132]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:692][135]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:735][137]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:735][137]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:799][140]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:841][142]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:841][142]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:905][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:946][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.09:946][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:008][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:050][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:050][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:050][143]LogUdpMessaging: Warning: Gave up sending with 1 outstanding acks.
+[2023.09.30-13.59.10:050][143]LogUdpMessaging: Warning: Gave up sending with 1 outstanding acks.
+[2023.09.30-13.59.10:060][143]LogUdpMessaging: Warning: FUdpMessageProcessor::GetInitializedSegments segmenter is invalid. Removing from send queue.
+[2023.09.30-13.59.10:060][143]LogUdpMessaging: Warning: FUdpMessageProcessor::GetInitializedSegments segmenter is invalid. Removing from send queue.
+[2023.09.30-13.59.10:111][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:216][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:321][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:424][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:530][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:637][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:743][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:848][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.10:950][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.11:055][143]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.11:055][143]LogUdpMessaging: Warning: Gave up sending with 1 outstanding acks.
+[2023.09.30-13.59.11:066][143]LogUdpMessaging: Warning: FUdpMessageProcessor::GetInitializedSegments segmenter is invalid. Removing from send queue.
+[2023.09.30-13.59.11:279][143]LogSlate: Window 'Delete Session Confirmation' being destroyed
+[2023.09.30-13.59.11:283][143]Message dialog closed, result: Yes, title: Delete Session Confirmation, text: Do you really want to delete 1 session from 1 server?
+
+The session 
+	- LDJAM54
+ will be deleted from the server SHANES-PC.
+[2023.09.30-13.59.11:283][143]LogConcert: [Pending] Deleting Session...
+[2023.09.30-13.59.11:320][144]LogConcert: [Pending] Deleting Session...
+[2023.09.30-13.59.11:393][147]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.11:499][152]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.11:604][156]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.11:710][160]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.11:817][167]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.11:923][173]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:026][179]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:132][186]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:239][192]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:344][198]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:449][205]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:554][211]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:659][217]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:765][223]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:873][230]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.12:978][236]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments.
+[2023.09.30-13.59.13:052][240]LogConcert: Error: [Failure] Failed to Delete Session ''
+[2023.09.30-13.59.13:090][241]LogConcert: Error: [Failure] Failed to Delete Session ''
+[2023.09.30-13.59.13:362][255]LogConcert: Display: Server SHANES-PC lost.
+[2023.09.30-13.59.16:237][383]LogSlate: Window 'Multi-User Browser' being destroyed
+[2023.09.30-13.59.16:283][383]LogSlate: Window 'Multi-User Browser' being destroyed
+[2023.09.30-13.59.18:941][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.09.30-13.59.20:023][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.09.30-13.59.20:025][658]LogStall: Shutdown...
+[2023.09.30-13.59.20:027][658]LogStall: Shutdown complete.
+[2023.09.30-13.59.20:054][658]LogSlate: Window 'LDJam54 - Unreal Editor' being destroyed
+[2023.09.30-13.59.20:187][659]Cmd: QUIT_EDITOR
+[2023.09.30-13.59.20:187][659]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.09.30-13.59.20:190][659]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.09.30-13.59.20:190][659]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.09.30-13.59.20:190][659]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.09.30-13.59.20:191][659]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.20:191][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.59.20:196][659]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.09.30-13.59.20:440][659]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.09.30-13.59.20:440][659]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.09.30-13.59.20:440][659]LogAudio: Display: Audio Device unregistered from world 'Map_00'.
+[2023.09.30-13.59.20:440][659]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.09.30-13.59.20:440][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.09.30-13.59.20:442][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.09.30-13.59.20:449][659]LogAudio: Display: Audio Device Manager Shutdown
+[2023.09.30-13.59.20:450][659]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2023.09.30-13.59.20:454][659]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.09.30-13.59.20:454][659]LogExit: Preparing to exit.
+[2023.09.30-13.59.20:979][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.09.30-13.59.20:988][659]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:988][659]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:990][659]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:991][659]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.20:992][659]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.09.30-13.59.22:141][659]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:143][659]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:145][659]LogWorld: UWorld::CleanupWorld for World_144, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:148][659]LogWorld: UWorld::CleanupWorld for World_145, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:150][659]LogWorld: UWorld::CleanupWorld for World_146, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:153][659]LogWorld: UWorld::CleanupWorld for World_147, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:155][659]LogWorld: UWorld::CleanupWorld for World_148, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:157][659]LogWorld: UWorld::CleanupWorld for World_149, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:161][659]LogWorld: UWorld::CleanupWorld for World_150, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:163][659]LogWorld: UWorld::CleanupWorld for World_151, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:165][659]LogWorld: UWorld::CleanupWorld for World_152, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:167][659]LogWorld: UWorld::CleanupWorld for World_153, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:169][659]LogWorld: UWorld::CleanupWorld for World_154, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:172][659]LogWorld: UWorld::CleanupWorld for World_155, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:174][659]LogWorld: UWorld::CleanupWorld for World_156, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:176][659]LogWorld: UWorld::CleanupWorld for World_157, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:178][659]LogWorld: UWorld::CleanupWorld for World_158, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:181][659]LogWorld: UWorld::CleanupWorld for World_159, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:183][659]LogWorld: UWorld::CleanupWorld for World_160, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:185][659]LogWorld: UWorld::CleanupWorld for World_161, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:188][659]LogWorld: UWorld::CleanupWorld for World_162, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:190][659]LogWorld: UWorld::CleanupWorld for World_163, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:193][659]LogWorld: UWorld::CleanupWorld for World_166, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:195][659]LogWorld: UWorld::CleanupWorld for World_167, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:198][659]LogWorld: UWorld::CleanupWorld for World_168, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:200][659]LogWorld: UWorld::CleanupWorld for World_169, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:202][659]LogWorld: UWorld::CleanupWorld for World_170, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:205][659]LogWorld: UWorld::CleanupWorld for World_171, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:211][659]LogWorld: UWorld::CleanupWorld for World_172, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:213][659]LogWorld: UWorld::CleanupWorld for World_173, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:215][659]LogWorld: UWorld::CleanupWorld for World_174, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:218][659]LogWorld: UWorld::CleanupWorld for World_175, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:221][659]LogWorld: UWorld::CleanupWorld for World_176, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:223][659]LogWorld: UWorld::CleanupWorld for World_177, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:227][659]LogWorld: UWorld::CleanupWorld for World_178, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:230][659]LogWorld: UWorld::CleanupWorld for World_179, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:233][659]LogWorld: UWorld::CleanupWorld for World_180, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:235][659]LogWorld: UWorld::CleanupWorld for World_181, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:238][659]LogWorld: UWorld::CleanupWorld for World_182, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:240][659]LogWorld: UWorld::CleanupWorld for World_183, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:242][659]LogWorld: UWorld::CleanupWorld for World_184, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:245][659]LogWorld: UWorld::CleanupWorld for World_185, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:247][659]LogWorld: UWorld::CleanupWorld for World_186, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:249][659]LogWorld: UWorld::CleanupWorld for World_187, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:252][659]LogWorld: UWorld::CleanupWorld for World_188, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:254][659]LogWorld: UWorld::CleanupWorld for World_189, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:256][659]LogWorld: UWorld::CleanupWorld for World_190, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:260][659]LogWorld: UWorld::CleanupWorld for World_191, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:262][659]LogWorld: UWorld::CleanupWorld for World_192, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:264][659]LogWorld: UWorld::CleanupWorld for World_193, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:267][659]LogWorld: UWorld::CleanupWorld for World_194, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:269][659]LogWorld: UWorld::CleanupWorld for World_195, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:271][659]LogWorld: UWorld::CleanupWorld for World_196, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:273][659]LogWorld: UWorld::CleanupWorld for World_197, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:276][659]LogWorld: UWorld::CleanupWorld for World_198, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:278][659]LogWorld: UWorld::CleanupWorld for World_199, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:280][659]LogWorld: UWorld::CleanupWorld for World_200, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:282][659]LogWorld: UWorld::CleanupWorld for World_201, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:284][659]LogWorld: UWorld::CleanupWorld for World_202, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:287][659]LogWorld: UWorld::CleanupWorld for World_203, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:290][659]LogWorld: UWorld::CleanupWorld for World_204, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:292][659]LogWorld: UWorld::CleanupWorld for World_205, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:295][659]LogWorld: UWorld::CleanupWorld for World_206, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:297][659]LogWorld: UWorld::CleanupWorld for World_207, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:298][659]LogWorld: UWorld::CleanupWorld for World_208, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:301][659]LogWorld: UWorld::CleanupWorld for World_209, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:303][659]LogWorld: UWorld::CleanupWorld for World_210, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:305][659]LogWorld: UWorld::CleanupWorld for World_211, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:308][659]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:311][659]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:313][659]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:315][659]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:318][659]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:320][659]LogWorld: UWorld::CleanupWorld for World_97, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:322][659]LogWorld: UWorld::CleanupWorld for World_98, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:325][659]LogWorld: UWorld::CleanupWorld for World_99, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:326][659]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:328][659]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:421][659]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.59.22:546][659]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.09.30-13.59.22:576][659]LogExit: Editor shut down
+[2023.09.30-13.59.22:580][659]LogExit: Transaction tracking system shut down
+[2023.09.30-13.59.23:050][659]LogExit: Object subsystem successfully closed.
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: ================================================
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Total job queries 177, among them cache hits 28 (15.82%)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Tracking 149 distinct input hashes that result in 102 distinct outputs (68.46%)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: RAM used: 3.31 MiB of 1.60 GiB budget. Usage: 0.20%
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Shaders Compiled: 131
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Jobs assigned 131, completed 131 (100%)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Average time worker was idle: 122.05 s
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Time job spent in pending queue: average 5.82 s, longest 18.36 s
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Job execution time: average 0.95 s, max 6.71 s
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Job life time (pending + execution): average 6.77 s, max 19.90
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Shader code size: average 34.633 KiB, min 4.359 KiB, max 85.32 KiB
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 36.03 s
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Jobs were issued in 131 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Average processing rate: 3.64 jobs/sec
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Total thread time: 81.829 s
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Total thread preprocess time: 8.346 s
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Percentage time preprocessing: 10.20%
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Effective parallelization: 2.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    3 times, average 1.89 sec, max 4.50 sec, min 0.36 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 0.99 sec, max 1.95 sec, min 0.40 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 0.78 sec, max 1.64 sec, min 0.33 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled   13 times, average 0.76 sec, max 2.98 sec, min 0.34 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.69 sec, max 0.73 sec, min 0.65 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:                                                  FHitProxyVS - 12.10% of total time (compiled   13 times, average 0.76 sec, max 2.98 sec, min 0.34 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.44% of total time (compiled   13 times, average 0.66 sec, max 1.42 sec, min 0.28 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:                                                  FVelocityVS - 9.08% of total time (compiled   11 times, average 0.68 sec, max 1.71 sec, min 0.30 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.74% of total time (compiled   12 times, average 0.60 sec, max 1.56 sec, min 0.33 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 7.24% of total time (compiled    6 times, average 0.99 sec, max 1.95 sec, min 0.40 sec)
+[2023.09.30-13.59.23:059][659]LogShaderCompilers: Display: ================================================
+[2023.09.30-13.59.23:094][659]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.09.30-13.59.23:173][659]LogVirtualization: UE::Virtualization was shutdown
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module EnvironmentLightingViewer (1088)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module FontEditor (1086)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module SequencerWidgets (1084)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module PinnedCommandList (1082)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module SkeletonEditor (1080)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module AnimationEditor (1078)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (1076)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1074)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (1072)
+[2023.09.30-13.59.23:187][659]LogModuleManager: Shutting down and abandoning module AddContentDialog (1070)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1069)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1066)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module SceneOutliner (1064)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module StatusBar (1062)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1060)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1058)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module DataLayerEditor (1056)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module StatsViewer (1054)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1052)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module AutomationWorker (1050)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module ConcertTakeRecorder (1048)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module PlanarCut (1046)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module FractureEngine (1044)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module CharacterAI (1042)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module SmartSnapping (1040)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (1038)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module WaveTableEditor (1036)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module RigVMEditor (1034)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (1032)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module GooglePADEditor (1030)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (1028)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (1026)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (1024)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module TextureAlignMode (1022)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module BspMode (1020)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module GeometryMode (1018)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1016)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1014)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module WebMMedia (1012)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1010)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1008)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (1006)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (1004)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module SequenceRecorder (1003)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (1000)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (998)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (996)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (994)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (992)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (990)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (988)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module IKRigEditor (986)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module ControlRigEditor (984)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (982)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (980)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (978)
+[2023.09.30-13.59.23:188][659]LogModuleManager: Shutting down and abandoning module SessionServices (976)
+[2023.09.30-13.59.23:190][659]LogModuleManager: Shutting down and abandoning module MeshPaint (974)
+[2023.09.30-13.59.23:190][659]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (972)
+[2023.09.30-13.59.23:190][659]LogModuleManager: Shutting down and abandoning module PlacementMode (971)
+[2023.09.30-13.59.23:190][659]LogModuleManager: Shutting down and abandoning module FoliageEdit (968)
+[2023.09.30-13.59.23:190][659]LogModuleManager: Shutting down and abandoning module LandscapeEditor (966)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (964)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module ActorPickerMode (962)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module ViewportSnapping (960)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module EditorWidgets (958)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module ViewportInteraction (956)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module ClothPainter (954)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (953)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module WidgetRegistration (950)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module LogVisualizer (948)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (946)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (944)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (943)
+[2023.09.30-13.59.23:191][659]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (941)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (938)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (936)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (934)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (932)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (930)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (928)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module AnimationSettings (926)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (924)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module CSVtoSVG (922)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (920)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module EditorConfig (918)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module EditorFramework (916)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (914)
+[2023.09.30-13.59.23:613][659]LogModuleManager: Shutting down and abandoning module TraceInsights (912)
+[2023.09.30-13.59.23:613][659]MemoryProfiler: Shutdown
+[2023.09.30-13.59.23:613][659]NetworkingProfiler: Shutdown
+[2023.09.30-13.59.23:613][659]LoadingProfiler: Shutdown
+[2023.09.30-13.59.23:613][659]TimingProfiler: Shutdown
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module TraceServices (911)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module TraceAnalysis (910)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (906)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (905)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module InputBindingEditor (902)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module MergeActors (900)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (898)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module LocalizationService (897)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module HardwareTargeting (894)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (892)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module UndoHistory (890)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module XmlParser (888)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module Blutility (886)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (884)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (883)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (880)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (879)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module SettingsEditor (876)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module ProjectLauncher (874)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module SessionFrontend (872)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module ProfilerClient (870)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module DeviceManager (868)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module AutomationController (866)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module AutomationWindow (864)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module Layers (862)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (860)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module DetailCustomizations (858)
+[2023.09.30-13.59.23:614][659]LogModuleManager: Shutting down and abandoning module PackagesDialog (856)
+[2023.09.30-13.59.23:615][659]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (854)
+[2023.09.30-13.59.23:615][659]LogModuleManager: Shutting down and abandoning module Persona (852)
+[2023.09.30-13.59.23:615][659]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (851)
+[2023.09.30-13.59.23:615][659]LogModuleManager: Shutting down and abandoning module Kismet (848)
+[2023.09.30-13.59.23:620][659]LogModuleManager: Shutting down and abandoning module KismetWidgets (847)
+[2023.09.30-13.59.23:620][659]LogModuleManager: Shutting down and abandoning module GraphEditor (844)
+[2023.09.30-13.59.23:620][659]LogModuleManager: Shutting down and abandoning module StructViewer (842)
+[2023.09.30-13.59.23:620][659]LogModuleManager: Shutting down and abandoning module ClassViewer (840)
+[2023.09.30-13.59.23:621][659]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (838)
+[2023.09.30-13.59.23:621][659]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (836)
+[2023.09.30-13.59.23:621][659]LogModuleManager: Shutting down and abandoning module SourceControlWindows (834)
+[2023.09.30-13.59.23:621][659]LogModuleManager: Shutting down and abandoning module OutputLog (832)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module Documentation (830)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (828)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (826)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module MovieScene (824)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (822)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (820)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (818)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module AudioMixer (817)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module AudioMixerCore (816)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module LauncherPlatform (812)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module AnalyticsET (810)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module PortalServices (808)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module PortalRpc (806)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module MessagingRpc (804)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module AIModule (802)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module GameplayDebugger (801)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module AITestSuite (799)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module NavigationSystem (797)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (794)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (792)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module TypedElementFramework (790)
+[2023.09.30-13.59.23:624][659]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (788)
+[2023.09.30-13.59.23:634][659]LogModuleManager: Shutting down and abandoning module ProfilerService (786)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (784)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (782)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (780)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (778)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module TakesCore (776)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (774)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module MegascansPlugin (772)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module Bridge (770)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module ConcertSharedSlate (768)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module MultiUserClientLibrary (766)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module MultiUserClient (764)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module ConcertSyncClient (763)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (760)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module LightMixer (758)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (756)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (754)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (752)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (750)
+[2023.09.30-13.59.23:852][659]LogModuleManager: Shutting down and abandoning module CollectionManager (749)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module TakeSequencer (746)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module TakeMovieScene (744)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (742)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (740)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (738)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (736)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (734)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (732)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (730)
+[2023.09.30-13.59.23:853][659]LogOpenImageDenoise: OIDN shutting down
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (728)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (726)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (724)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (722)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (720)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (718)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module LocalizableMessage (716)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module MeshLODToolset (714)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (712)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (710)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (708)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (706)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (704)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (703)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (701)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (698)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module DataflowNodes (696)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (694)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module DataflowEditor (692)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (690)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ChaosNiagara (688)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (686)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (684)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module FractureEditor (682)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module BackChannel (680)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (678)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AutomationUtils (676)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (674)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (672)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module Paper2DEditor (670)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module VariantManager (666)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (665)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (662)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module SynthesisEditor (660)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ResonanceAudio (658)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (656)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (654)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (652)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ModelingOperators (650)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (648)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ModelingComponents (646)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryFramework (645)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (642)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module MeshModelingTools (640)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (638)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module InputDebugging (636)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GooglePAD (634)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (632)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (630)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (628)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module DynamicMesh (626)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (624)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AudioCapture (622)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (621)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (618)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AssetTags (616)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (614)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AppleImageUtils (612)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AndroidPermission (610)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (608)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (606)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (604)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AlembicImporter (602)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module AlembicLibrary (601)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCache (600)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (599)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (594)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module UVEditorTools (592)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module UVEditor (590)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (588)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (586)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module PluginBrowser (584)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (582)
+[2023.09.30-13.59.23:853][659]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (580)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (578)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (576)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module EditorDebugTools (574)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module CurveEditorTools (572)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (570)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module CryptoKeys (568)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module ChangelistReview (566)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (564)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (562)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeTests (560)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (558)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (556)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (554)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeExport (552)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeMessages (550)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module GLTFCore (548)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (546)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (544)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module InterchangeEditor (542)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (540)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (538)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module MediaPlate (536)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module MediaCompositing (534)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module ImgMedia (532)
+[2023.09.30-13.59.23:854][659]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (530)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (528)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (526)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module UObjectPlugin (524)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (522)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (520)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module PluginUtils (518)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module GitSourceControl (516)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (514)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module DumpGPUServices (512)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (510)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (508)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (506)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ControlRigSpline (504)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (502)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (500)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (496)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module SequencerScripting (494)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (492)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module TraceUtilities (490)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (488)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (486)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module InputEditor (484)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (482)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module BlueprintGraph (481)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ConcertSyncCore (478)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ConcertServer (476)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ConcertClient (474)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ConcertTransport (473)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module Concert (470)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module SQLiteCore (468)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module StructUtils (466)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (464)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module PBIK (462)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module FullBodyIK (460)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (458)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module TakeRecorder (457)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ChaosCaching (454)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module GameplayCameras (452)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module Paper2D (450)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module Synthesis (448)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module SoundFields (446)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (444)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module RigVM (442)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module SignificanceManager (440)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (438)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (436)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (434)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MetasoundEditor (432)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module AudioWidgets (431)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (430)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (426)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MetasoundEngine (424)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module WaveTable (423)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (421)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (418)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (416)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (414)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (412)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (410)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (408)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module CableComponent (406)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (404)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (403)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (400)
+[2023.09.30-13.59.23:855][659]LogModuleManager: Shutting down and abandoning module UdpMessaging (398)
+[2023.09.30-13.59.23:956][659]LogModuleManager: Shutting down and abandoning module TcpMessaging (396)
+[2023.09.30-13.59.24:057][659]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (394)
+[2023.09.30-13.59.24:057][659]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (392)
+[2023.09.30-13.59.24:057][659]LogModuleManager: Shutting down and abandoning module FacialAnimation (390)
+[2023.09.30-13.59.24:057][659]LogModuleManager: Shutting down and abandoning module DataValidation (388)
+[2023.09.30-13.59.24:057][659]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (386)
+[2023.09.30-13.59.24:057][659]LogModuleManager: Shutting down and abandoning module LevelEditor (385)
+[2023.09.30-13.59.24:064][659]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (384)
+[2023.09.30-13.59.24:064][659]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (382)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module MainFrame (380)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module HotReload (379)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module TreeMap (375)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module InterchangePipelines (372)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module InterchangeImport (370)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (368)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module InterchangeNodes (366)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (364)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (362)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module Niagara (360)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module SignalProcessing (359)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module ContentBrowser (356)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module ToolMenus (355)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module ContentBrowserData (353)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module NiagaraCore (348)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (346)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (344)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (342)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module IKRig (340)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module AnimationSharing (338)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (336)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module ControlRig (334)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module Constraints (333)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module LevelSequence (331)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module AnimationData (328)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (324)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module EnhancedInput (322)
+[2023.09.30-13.59.24:065][659]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (320)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (318)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module AndroidFileServer (316)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (314)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module PacketHandler (312)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (310)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module AnimGraph (308)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module TimeManagement (306)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module AnimationDataController (304)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2023.09.30-13.59.24:092][659]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2023.09.30-13.59.24:093][659]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (278)
+[2023.09.30-13.59.24:093][659]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2023.09.30-13.59.24:093][659]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2023.09.30-13.59.24:093][659]LogModuleManager: Shutting down and abandoning module EditorStyle (270)
+[2023.09.30-13.59.24:093][659]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2023.09.30-13.59.24:093][659]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2023.09.30-13.59.24:093][659]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2023.09.30-13.59.24:094][659]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (262)
+[2023.09.30-13.59.24:094][659]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (260)
+[2023.09.30-13.59.24:094][659]LogModuleManager: Shutting down and abandoning module UnrealEd (258)
+[2023.09.30-13.59.24:094][659]LogModuleManager: Shutting down and abandoning module MRMesh (256)
+[2023.09.30-13.59.24:094][659]LogModuleManager: Shutting down and abandoning module Messaging (254)
+[2023.09.30-13.59.24:094][659]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (252)
+[2023.09.30-13.59.24:094][659]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (250)
+[2023.09.30-13.59.24:094][659]LogModuleManager: Shutting down and abandoning module LiveCoding (248)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module Networking (246)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module Core (244)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module AssetDefinition (242)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module MovieSceneTools (240)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module CurveEditor (239)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module Sequencer (237)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module KismetCompiler (234)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module MeshBuilder (232)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module NaniteBuilder (230)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module MeshUtilities (228)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (227)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (226)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (225)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (222)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (221)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (219)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (217)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (215)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module MaterialBaking (211)
+[2023.09.30-13.59.24:101][659]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (208)
+[2023.09.30-13.59.24:112][659]LogModuleManager: Shutting down and abandoning module TelemetryUtils (205)
+[2023.09.30-13.59.24:112][659]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2023.09.30-13.59.24:112][659]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (200)
+[2023.09.30-13.59.24:112][659]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (187)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (185)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (183)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (181)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (179)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (177)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (175)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (173)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (171)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (169)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (167)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (165)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module TextureFormat (163)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2023.09.30-13.59.24:124][659]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (160)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (158)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (156)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (150)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module TurnkeySupport (147)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module InputCore (144)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module Settings (142)
+[2023.09.30-13.59.24:125][659]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (140)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (138)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (137)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module Chaos (134)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module GeometryCore (133)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (130)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (129)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module AVEncoder (128)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module D3D12RHI (124)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module ChaosCloth (122)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (120)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (118)
+[2023.09.30-13.59.24:127][659]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (116)
+[2023.09.30-13.59.24:129][659]LogModuleManager: Shutting down and abandoning module XMPP (111)
+[2023.09.30-13.59.24:129][659]LogModuleManager: Shutting down and abandoning module WebSockets (110)
+[2023.09.30-13.59.24:154][659]LogModuleManager: Shutting down and abandoning module HTTP (107)
+[2023.09.30-13.59.24:154][659]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2023.09.30-13.59.24:154][659]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF6853671-45B6-9021-4FAD-86A46A7196F4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=79bf698d454603ef4f0cb8b537add05b%7C319faae0851e41e8b582a732949c9f25%7Ce79074fb-a2ff-48bc-a22f-6859ba6e8a79&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.09.30-13.59.24:189][659]LogModuleManager: Shutting down and abandoning module SSL (106)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (102)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (100)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (98)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module VariantManagerContent (96)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module GLTFExporter (94)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module DatasmithContent (92)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (90)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (88)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module ChunkDownloader (86)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (84)
+[2023.09.30-13.59.24:190][659]LogModuleManager: Shutting down and abandoning module WmfMedia (82)
+[2023.09.30-13.59.24:193][659]LogModuleManager: Shutting down and abandoning module Media (81)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (78)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (76)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module NiagaraShader (74)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (72)
+[2023.09.30-13.59.24:195][659]RenderDocPlugin: plugin has been unloaded.
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module PixWinPlugin (70)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module ACLPlugin (68)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module AISupportModule (66)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (62)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (60)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (58)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module PlatformCrypto (56)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (54)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (52)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module SourceControl (51)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2023.09.30-13.59.24:195][659]LogXGEController: Cleaning working directory: C:/Users/shane/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.09.30-13.59.24:195][659]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.09.30-13.59.24:196][659]LogPakFile: Destroying PakPlatformFile
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.09.30-13.59.24:196][659]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.09.30-13.59.24:996][659]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.09.30-13.59.25:033][659]LogExit: Exiting.
+[2023.09.30-13.59.25:067][659]Log file closed, 09/30/23 14:59:25
