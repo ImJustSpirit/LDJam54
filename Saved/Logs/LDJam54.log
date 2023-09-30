@@ -9930,3 +9930,122 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.30-13.41.45:136][796]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2023.09.30-13.41.45:162][797]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2023.09.30-13.41.47:726][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.09.30-13.42.55:048][681]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WB_MainMenu.WB_MainMenu
+[2023.09.30-13.42.55:049][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.42.55:049][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.42.55:058][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.42.55:058][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.42.55:218][681]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.09.30-13.43.23:525][ 44]LogConcertTakeRecorder: Display: Session Client Change: Jack Disconnected.
+[2023.09.30-13.43.23:525][ 44]LogConcert: Display: User 'justspirit' (Endpoint: 3AEEC277854F787774E4BAB838C27D1A) left Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.43.23:525][ 44]LogConcert: Display: Synced activity '95' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack left the session.
+[2023.09.30-13.43.48:960][ 23]LogConcertTakeRecorder: Display: Session Client Change: Jack Connected.
+[2023.09.30-13.43.48:960][ 23]LogConcert: Display: User 'justspirit' (Endpoint: 59CC0805EC471546212AAB84B33FD82B) joined Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.43.48:960][ 23]LogConcert: Display: Synced activity '96' produced by endpoint '59CC0805EC471546212AAB84B33FD82B': Jack joined the session.
+[2023.09.30-13.43.50:931][180]LogSlate: Window 'WB_MainMenu' being destroyed
+[2023.09.30-13.43.50:952][180]LogWorld: UWorld::CleanupWorld for World_213, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.43.50:952][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.43.50:958][180]LogWorld: UWorld::CleanupWorld for World_212, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.43.50:958][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.43.57:889][885]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.09.30-13.43.57:894][885]LogContentBrowser: Creating deferred item: NewWorld
+[2023.09.30-13.43.57:901][886]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.09.30-13.44.04:591][686]LogContentBrowser: Attempting asset rename: NewWorld -> Map_01
+[2023.09.30-13.44.04:591][686]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.44.04:591][686]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.44.04:607][686]LogContentBrowser: End creating deferred item NewWorld
+[2023.09.30-13.44.04:609][686]AssetCheck: New page: Asset Save: Map_01
+[2023.09.30-13.44.04:609][686]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_01.Map_01
+[2023.09.30-13.44.04:617][687]LogConcert: Display: Synced activity '97' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/Maps/Map_01.
+[2023.09.30-13.44.05:962][843]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.44.05:993][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_01" FILE="../../../../LDJam54/Content/Maps/Map_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.44.06:007][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.09.30-13.44.06:009][843]LogSavePackage: Moving output files for package: /Game/Maps/Map_01
+[2023.09.30-13.44.06:010][843]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_01DE311AF54E35B8E3EB6D689338581340.tmp' to '../../../../LDJam54/Content/Maps/Map_01.umap'
+[2023.09.30-13.44.06:014][843]LogFileHelpers: Saving map 'Map_01' took 0.022
+[2023.09.30-13.44.06:024][843]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 22.8 sec)
+[2023.09.30-13.44.06:025][843]AssetCheck: New page: Asset Save: Map_01
+[2023.09.30-13.44.06:025][843]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_01.Map_01
+[2023.09.30-13.44.06:052][846]LogConcert: Display: Synced activity '98' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/Maps/Map_01.
+[2023.09.30-13.44.20:001][203]LogConcertTakeRecorder: Display: Session Client Change: Jack Disconnected.
+[2023.09.30-13.44.20:001][203]LogConcert: Display: User 'justspirit' (Endpoint: 59CC0805EC471546212AAB84B33FD82B) left Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.44.20:001][203]LogConcert: Display: Synced activity '99' produced by endpoint '59CC0805EC471546212AAB84B33FD82B': Jack left the session.
+[2023.09.30-13.47.09:054][890]LogObjectTools: Deleting 2 worlds: /Game/Maps/Map_00.Map_00, /Game/Maps/Map_01.Map_01
+[2023.09.30-13.47.09:054][890]LogObjectTools: Currently 80 active worlds: /Game/Maps/Map_00.Map_00, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_23, /Engine/Transient.World_76, /Engine/Transient.World_77, /Engine/Transient.World_78, /Engine/Transient.World_97, /Engine/Transient.World_98, /Engine/Transient.World_99, /Engine/Transient.World_144, /Engine/Transient.World_145, /Engine/Transient.World_146, /Engine/Transient.World_147, /Engine/Transient.World_148, /Engine/Transient.World_149, /Engine/Transient.World_150, /Engine/Transient.World_151, /Engine/Transient.World_152, /Engine/Transient.World_153, /Engine/Transient.World_154, /Engine/Transient.World_155, /Engine/Transient.World_156, /Engine/Transient.World_157, /Engine/Transient.World_158, /Engine/Transient.World_159, /Engine/Transient.World_160, /Engine/Transient.World_161, /Engine/Transient.World_162, /Engine/Transient.World_163, /Engine/Transient.World_166, /Engine/Transient.World_167, /Engine/Transient.World_168, /Engine/Transient.World_169, /Engine/Transient.World_170, /Engine/Transient.World_171, /Engine/Transient.World_172, /Engine/Transient.World_173, /Engine/Transient.World_174, /Engine/Transient.World_175, /Engine/Transient.World_176, /Engine/Transient.World_177, /Engine/Transient.World_178, /Engine/Transient.World_179, /Engine/Transient.World_180, /Engine/Transient.World_181, /Engine/Transient.World_182, /Engine/Transient.World_183, /Engine/Transient.World_184, /Engine/Transient.World_185, /Engine/Transient.World_186, /Engine/Transient.World_187, /Engine/Transient.World_188, /Engine/Transient.World_189, /Engine/Transient.World_190, /Engine/Transient.World_191, /Engine/Transient.World_192, /Engine/Transient.World_193, /Engine/Transient.World_194, /Engine/Transient.World_195, /Engine/Transient.World_196, /Engine/Transient.World_197, /Engine/Transient.World_198, /Engine/Transient.World_199, /Engine/Transient.World_200, /Engine/Transient.World_201, /Engine/Transient.World_202, /Engine/Transient.World_203, /Engine/Transient.World_204, /Engine/Transient.World_205, /Engine/Transient.World_206, /Engine/Transient.World_207, /Engine/Transient.World_208, /Engine/Transient.World_209, /Engine/Transient.World_210, /Engine/Transient.World_211
+[2023.09.30-13.47.11:543][890]LogSlate: Window 'Unable to delete level' being destroyed
+[2023.09.30-13.47.11:547][890]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2023.09.30-13.47.12:502][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.09.30-13.47.12:974][998]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.47.13:136][998]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Overview.Overview
+[2023.09.30-13.47.13:138][998]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/Maps/Overview.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.47.13:138][998]LightingResults: New page: Lighting Build
+[2023.09.30-13.47.13:138][998]LoadErrors: New page: Loading map: Overview.umap
+[2023.09.30-13.47.13:150][998]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.47.13:150][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.47.13:150][998]MapCheck: New page: Map Check
+[2023.09.30-13.47.13:150][998]LightingResults: New page: Lighting Build
+[2023.09.30-13.47.13:172][998]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.47.13:174][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.09.30-13.47.13:178][998]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.47.13:180][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.47.13:201][998]LogWorld: UWorld::CleanupWorld for Map_01, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.47.13:201][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.47.13:220][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.09.30-13.47.13:233][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.09.30-13.47.13:300][998]LogAudio: Display: Audio Device (ID: 1) registered with world 'Overview'.
+[2023.09.30-13.47.13:300][998]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.47.13:300][998]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.47.13:301][998]LogAIModule: Creating AISystem for world Overview
+[2023.09.30-13.47.13:391][998]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.47.13:418][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.09.30-13.47.13:421][998]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.47.13:421][998]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.175ms to complete.
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: ================================================
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Total job queries 165, among them cache hits 16 (9.70%)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Tracking 143 distinct input hashes that result in 98 distinct outputs (68.53%)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: RAM used: 3.19 MiB of 1.60 GiB budget. Usage: 0.19%
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Shaders Compiled: 125
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Jobs assigned 129, completed 125 (96.90%)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Average time worker was idle: 124.00 s
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Time job spent in pending queue: average 5.90 s, longest 18.36 s
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Job execution time: average 0.97 s, max 6.71 s
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Job life time (pending + execution): average 7.04 s, max 19.90
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Shader code size: average 34.615 KiB, min 4.359 KiB, max 85.32 KiB
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 35.31 s
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Jobs were issued in 129 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Average processing rate: 3.54 jobs/sec
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Total thread time: 79.717 s
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Total thread preprocess time: 8.106 s
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Percentage time preprocessing: 10.17%
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Effective parallelization: 2.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    3 times, average 1.89 sec, max 4.50 sec, min 0.36 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 0.99 sec, max 1.95 sec, min 0.40 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 0.78 sec, max 1.64 sec, min 0.33 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled   13 times, average 0.76 sec, max 2.98 sec, min 0.34 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.69 sec, max 0.73 sec, min 0.65 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:                                                  FHitProxyVS - 12.42% of total time (compiled   13 times, average 0.76 sec, max 2.98 sec, min 0.34 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.71% of total time (compiled   13 times, average 0.66 sec, max 1.42 sec, min 0.28 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:                                                  FVelocityVS - 9.32% of total time (compiled   11 times, average 0.68 sec, max 1.71 sec, min 0.30 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.97% of total time (compiled   12 times, average 0.60 sec, max 1.56 sec, min 0.33 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 7.43% of total time (compiled    6 times, average 0.99 sec, max 1.95 sec, min 0.40 sec)
+[2023.09.30-13.47.14:416][ 15]LogShaderCompilers: Display: ================================================
+[2023.09.30-13.47.18:305][357]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.47.18:311][357]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.47.18:311][357]LogObjectTools: Deleting 2 worlds: /Game/Maps/Map_00.Map_00, /Game/Maps/Map_01.Map_01
+[2023.09.30-13.47.18:311][357]LogObjectTools: Currently 80 active worlds: /Game/Maps/Overview.Overview, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_23, /Engine/Transient.World_76, /Engine/Transient.World_77, /Engine/Transient.World_78, /Engine/Transient.World_97, /Engine/Transient.World_98, /Engine/Transient.World_99, /Engine/Transient.World_144, /Engine/Transient.World_145, /Engine/Transient.World_146, /Engine/Transient.World_147, /Engine/Transient.World_148, /Engine/Transient.World_149, /Engine/Transient.World_150, /Engine/Transient.World_151, /Engine/Transient.World_152, /Engine/Transient.World_153, /Engine/Transient.World_154, /Engine/Transient.World_155, /Engine/Transient.World_156, /Engine/Transient.World_157, /Engine/Transient.World_158, /Engine/Transient.World_159, /Engine/Transient.World_160, /Engine/Transient.World_161, /Engine/Transient.World_162, /Engine/Transient.World_163, /Engine/Transient.World_166, /Engine/Transient.World_167, /Engine/Transient.World_168, /Engine/Transient.World_169, /Engine/Transient.World_170, /Engine/Transient.World_171, /Engine/Transient.World_172, /Engine/Transient.World_173, /Engine/Transient.World_174, /Engine/Transient.World_175, /Engine/Transient.World_176, /Engine/Transient.World_177, /Engine/Transient.World_178, /Engine/Transient.World_179, /Engine/Transient.World_180, /Engine/Transient.World_181, /Engine/Transient.World_182, /Engine/Transient.World_183, /Engine/Transient.World_184, /Engine/Transient.World_185, /Engine/Transient.World_186, /Engine/Transient.World_187, /Engine/Transient.World_188, /Engine/Transient.World_189, /Engine/Transient.World_190, /Engine/Transient.World_191, /Engine/Transient.World_192, /Engine/Transient.World_193, /Engine/Transient.World_194, /Engine/Transient.World_195, /Engine/Transient.World_196, /Engine/Transient.World_197, /Engine/Transient.World_198, /Engine/Transient.World_199, /Engine/Transient.World_200, /Engine/Transient.World_201, /Engine/Transient.World_202, /Engine/Transient.World_203, /Engine/Transient.World_204, /Engine/Transient.World_205, /Engine/Transient.World_206, /Engine/Transient.World_207, /Engine/Transient.World_208, /Engine/Transient.World_209, /Engine/Transient.World_210, /Engine/Transient.World_211
+[2023.09.30-13.47.18:323][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.09.30-13.47.19:021][357]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.30-13.47.19:030][357]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.47.19:030][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.47.19:034][357]LogWorld: UWorld::CleanupWorld for Map_01, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.47.19:034][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.47.19:046][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.09.30-13.47.19:058][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.30-13.47.19:070][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.09.30-13.47.19:087][359]LogConcert: Display: Synced activity '100' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae deleted package /Game/Maps/Map_00.
+[2023.09.30-13.47.19:087][359]LogConcert: Display: Synced activity '101' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae deleted package /Game/Maps/Map_01.
+[2023.09.30-13.47.21:354][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
