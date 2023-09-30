@@ -9098,3 +9098,835 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.30-13.26.54:658][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
 [2023.09.30-13.26.54:665][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
 [2023.09.30-13.26.54:671][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.09.30-13.30.26:534][ 17]LogConcert: [Pending] Launching Unreal Multi-User Server...
+[2023.09.30-13.30.26:542][ 17]LogConcert: [Success] Launched Unreal Multi-User Server
+[2023.09.30-13.30.26:591][ 18]LogConcert: [Success] Launched Unreal Multi-User Server
+[2023.09.30-13.30.28:365][ 61]LogConcert: Display: Server SHANES-PC discovered.
+[2023.09.30-13.30.34:249][337]LogConcert: [Pending] Creating Session 'Ludum54'...
+[2023.09.30-13.30.34:249][337]LogConcert: [Pending] Creating Session 'Ludum54'... - Validating Workspace...
+[2023.09.30-13.30.34:278][338]LogConcert: [Pending] Creating Session 'Ludum54'... - Validating Workspace...
+[2023.09.30-13.30.34:562][344]LogConcert: [Pending] Creating Session 'Ludum54'... - Attempting Remote Connection...
+[2023.09.30-13.30.34:595][345]LogConcertTakeRecorder: Display: Multi-user Take Recorder Session Startup: Ludum54
+[2023.09.30-13.30.34:619][345]SourceControl: Revision control is disabled
+[2023.09.30-13.30.34:619][345]SourceControl: Revision control is disabled
+[2023.09.30-13.30.34:653][345]LogConcert: Display: Initialized Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.30.34:653][345]LogConcert: Display: Connecting to Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.30.34:724][347]LogConcertTakeRecorder: Display: Multi-user Take Recorder Connected to Session: Ludum54
+[2023.09.30-13.30.34:724][347]LogConcert: Display: Connected to Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.30.34:752][348]LogConcert: Display: Synced activity '1' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae joined the session.
+[2023.09.30-13.30.34:812][352]LogConcert: [Success] Created Session 'Ludum54'
+[2023.09.30-13.30.34:854][353]LogConcert: [Success] Created Session 'Ludum54'
+[2023.09.30-13.30.43:514][928]LogConcertTakeRecorder: Display: Session Client Change: Jack Connected.
+[2023.09.30-13.30.43:514][928]LogConcert: Display: User 'justspirit' (Endpoint: 3AEEC277854F787774E4BAB838C27D1A) joined Concert session 'Ludum54' (Id: 81B5FD00407348BD99143FB0F50825BC, Owner: shane).
+[2023.09.30-13.30.43:514][928]LogConcert: Display: Synced activity '2' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack joined the session.
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: ================================================
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Total job queries 129, among them cache hits 0 (0.00%)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Tracking 129 distinct input hashes that result in 86 distinct outputs (66.67%)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: RAM used: 2.90 MiB of 1.60 GiB budget. Usage: 0.18%
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Shaders Compiled: 123
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Jobs assigned 123, completed 123 (100%)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Average time worker was idle: 77.93 s
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Time job spent in pending queue: average 6.17 s, longest 18.36 s
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Job execution time: average 0.97 s, max 6.71 s
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Job life time (pending + execution): average 7.15 s, max 19.90
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Shader code size: average 34.641 KiB, min 4.359 KiB, max 85.32 KiB
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 34.64 s
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Jobs were issued in 123 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Average processing rate: 3.55 jobs/sec
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Total thread time: 79.154 s
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Total thread preprocess time: 8.056 s
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Percentage time preprocessing: 10.18%
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Effective parallelization: 2.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    3 times, average 1.89 sec, max 4.50 sec, min 0.36 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 0.99 sec, max 1.95 sec, min 0.40 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 0.78 sec, max 1.64 sec, min 0.33 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled   13 times, average 0.76 sec, max 2.98 sec, min 0.34 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.69 sec, max 0.73 sec, min 0.65 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:                                                  FHitProxyVS - 12.51% of total time (compiled   13 times, average 0.76 sec, max 2.98 sec, min 0.34 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.79% of total time (compiled   13 times, average 0.66 sec, max 1.42 sec, min 0.28 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:                                                  FVelocityVS - 9.39% of total time (compiled   11 times, average 0.68 sec, max 1.71 sec, min 0.30 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.04% of total time (compiled   12 times, average 0.60 sec, max 1.56 sec, min 0.33 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 7.48% of total time (compiled    6 times, average 0.99 sec, max 1.95 sec, min 0.40 sec)
+[2023.09.30-13.30.43:619][936]LogShaderCompilers: Display: ================================================
+[2023.09.30-13.31.03:218][891]LogSlate: External Image Picker: DecompressImage failed
+[2023.09.30-13.31.11:762][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.09.30-13.31.11:793][755]LogLinker: Warning: [AssetLog] Z:\Unreal\LDJam54\Content\UI\MainMenu.umap: Failed to load '/Game/Menus/WB_MainMenu': Can't find file.
+[2023.09.30-13.31.11:793][755]LogLinker: Warning: [AssetLog] Z:\Unreal\LDJam54\Content\UI\MainMenu.umap: VerifyImport: Failed to load package for import object 'Package /Game/Menus/WB_MainMenu'
+[2023.09.30-13.31.11:799][755]LogBlueprint: Error: [AssetLog] Z:\Unreal\LDJam54\Content\UI\MainMenu.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2023.09.30-13.31.11:802][755]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.11:804][755]LogAssetEditorSubsystem: Opening Asset editor for World /Game/UI/MainMenu.MainMenu
+[2023.09.30-13.31.11:804][755]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/UI/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.31.11:804][755]LightingResults: New page: Lighting Build
+[2023.09.30-13.31.11:804][755]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.09.30-13.31.11:843][755]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.11:844][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.11:846][755]LogContentBundle: [Untitled_1(Standalone)] Deleting container.
+[2023.09.30-13.31.11:846][755]MapCheck: New page: Map Check
+[2023.09.30-13.31.11:846][755]LightingResults: New page: Lighting Build
+[2023.09.30-13.31.11:850][755]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.31.11:909][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.09.30-13.31.11:928][755]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.11:928][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.11:933][755]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.11:935][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.11:953][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.09.30-13.31.11:958][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.09.30-13.31.11:962][755]LogBlueprint: Error: [AssetLog] Z:\Unreal\LDJam54\Content\UI\MainMenu.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2023.09.30-13.31.11:964][755]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.09.30-13.31.11:964][755]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.11:964][755]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.31.11:965][755]LogAIModule: Creating AISystem for world MainMenu
+[2023.09.30-13.31.11:979][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.31.11:984][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.09.30-13.31.11:990][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.31.11:990][755]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.085ms to complete.
+[2023.09.30-13.31.26:547][371]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:592][372]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:619][373]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:656][374]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:698][375]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:745][376]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:799][377]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:851][378]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:897][379]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:946][380]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.26:995][381]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:077][382]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:150][383]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:214][384]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:292][385]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:400][387]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:500][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:617][389]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:714][390]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:816][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.27:927][392]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:038][393]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:165][400]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:485][401]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:548][402]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:574][403]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:601][404]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:623][405]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:679][406]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:745][407]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:848][408]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.28:914][409]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:007][410]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:136][411]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:201][412]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:299][413]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:418][414]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:501][415]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.30-13.31.29:502][415]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:569][415]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.30-13.31.29:642][416]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:688][416]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.30-13.31.29:724][417]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:807][418]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:928][419]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.29:996][420]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:083][421]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:200][422]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:201][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:201][422]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:201][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:202][422]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:202][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:203][422]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:203][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:203][422]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:203][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:204][422]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:204][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:204][422]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:204][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:205][422]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:205][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:206][422]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:206][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:207][422]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:207][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:207][422]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:208][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:208][422]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:208][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:209][422]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:209][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:209][422]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:209][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:209][422]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:209][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:210][422]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:210][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:210][422]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:210][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:211][422]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:211][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:211][422]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:211][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:211][422]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:211][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:212][422]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:212][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:212][422]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:212][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:212][422]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:213][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:213][422]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:213][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:213][422]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:213][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:213][422]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:213][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:214][422]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:214][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:214][422]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:214][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:214][422]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:214][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:215][422]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:215][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:215][422]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:215][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:215][422]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:215][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:215][422]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:215][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:216][422]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:216][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:216][422]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:216][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:216][422]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:216][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:217][422]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:217][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:217][422]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:217][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:217][422]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:217][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:218][422]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:218][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:218][422]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:218][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:218][422]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:218][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:219][422]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:219][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:219][422]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:219][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:219][422]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:219][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:220][422]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:220][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:220][422]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:220][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:220][422]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:220][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:221][422]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:221][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:221][422]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:221][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:221][422]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:221][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:222][422]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:222][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:222][422]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:222][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:222][422]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:222][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:223][422]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:223][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:223][422]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:223][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:223][422]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:223][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:224][422]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:224][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:224][422]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:224][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:224][422]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:224][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:224][422]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:224][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:225][422]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:225][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:225][422]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:225][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:226][422]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:226][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:226][422]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:226][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:226][422]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:226][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:227][422]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:227][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:227][422]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:227][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:227][422]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:227][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:229][422]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:229][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:229][422]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:229][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:229][422]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:229][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:230][422]LogWorld: UWorld::CleanupWorld for World_85, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:230][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:230][422]LogWorld: UWorld::CleanupWorld for World_86, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:230][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:230][422]LogWorld: UWorld::CleanupWorld for World_87, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:230][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:230][422]LogWorld: UWorld::CleanupWorld for World_88, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:230][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:231][422]LogWorld: UWorld::CleanupWorld for World_89, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:231][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:231][422]LogWorld: UWorld::CleanupWorld for World_90, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:231][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:231][422]LogWorld: UWorld::CleanupWorld for World_91, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:231][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:232][422]LogWorld: UWorld::CleanupWorld for World_92, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:232][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:232][422]LogWorld: UWorld::CleanupWorld for World_93, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:232][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:232][422]LogWorld: UWorld::CleanupWorld for World_94, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:232][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:233][422]LogWorld: UWorld::CleanupWorld for World_95, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:233][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:233][422]LogWorld: UWorld::CleanupWorld for World_96, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:233][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:233][422]LogWorld: UWorld::CleanupWorld for World_100, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:233][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:233][422]LogWorld: UWorld::CleanupWorld for World_101, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:233][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:234][422]LogWorld: UWorld::CleanupWorld for World_102, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:234][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:234][422]LogWorld: UWorld::CleanupWorld for World_103, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:234][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:234][422]LogWorld: UWorld::CleanupWorld for World_104, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:234][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:235][422]LogWorld: UWorld::CleanupWorld for World_105, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:235][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:235][422]LogWorld: UWorld::CleanupWorld for World_106, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:235][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:235][422]LogWorld: UWorld::CleanupWorld for World_107, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:235][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:236][422]LogWorld: UWorld::CleanupWorld for World_108, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:236][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:236][422]LogWorld: UWorld::CleanupWorld for World_109, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:236][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:236][422]LogWorld: UWorld::CleanupWorld for World_110, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:236][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:236][422]LogWorld: UWorld::CleanupWorld for World_111, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:236][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:236][422]LogWorld: UWorld::CleanupWorld for World_112, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:236][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:237][422]LogWorld: UWorld::CleanupWorld for World_113, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:237][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:237][422]LogWorld: UWorld::CleanupWorld for World_114, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:237][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:237][422]LogWorld: UWorld::CleanupWorld for World_115, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:237][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:238][422]LogWorld: UWorld::CleanupWorld for World_116, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:238][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:238][422]LogWorld: UWorld::CleanupWorld for World_117, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:238][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:238][422]LogWorld: UWorld::CleanupWorld for World_118, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:238][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:239][422]LogWorld: UWorld::CleanupWorld for World_119, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:239][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:239][422]LogWorld: UWorld::CleanupWorld for World_120, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:239][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:239][422]LogWorld: UWorld::CleanupWorld for World_121, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:239][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:240][422]LogWorld: UWorld::CleanupWorld for World_122, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:240][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:240][422]LogWorld: UWorld::CleanupWorld for World_123, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:240][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:240][422]LogWorld: UWorld::CleanupWorld for World_124, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:240][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:240][422]LogWorld: UWorld::CleanupWorld for World_125, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:240][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:241][422]LogWorld: UWorld::CleanupWorld for World_126, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:241][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:241][422]LogWorld: UWorld::CleanupWorld for World_127, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:241][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:242][422]LogWorld: UWorld::CleanupWorld for World_128, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:242][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:242][422]LogWorld: UWorld::CleanupWorld for World_129, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:242][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:243][422]LogWorld: UWorld::CleanupWorld for World_130, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:243][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:243][422]LogWorld: UWorld::CleanupWorld for World_131, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:243][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:244][422]LogWorld: UWorld::CleanupWorld for World_132, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:244][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:244][422]LogWorld: UWorld::CleanupWorld for World_133, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:244][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:244][422]LogWorld: UWorld::CleanupWorld for World_134, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:244][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:245][422]LogWorld: UWorld::CleanupWorld for World_135, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:245][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:245][422]LogWorld: UWorld::CleanupWorld for World_136, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:245][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:245][422]LogWorld: UWorld::CleanupWorld for World_137, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:245][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:245][422]LogWorld: UWorld::CleanupWorld for World_138, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:245][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:245][422]LogWorld: UWorld::CleanupWorld for World_139, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:245][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:246][422]LogWorld: UWorld::CleanupWorld for World_140, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:246][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:246][422]LogWorld: UWorld::CleanupWorld for World_141, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:246][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:246][422]LogWorld: UWorld::CleanupWorld for World_142, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:246][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:247][422]LogWorld: UWorld::CleanupWorld for World_143, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.31.30:247][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.31.30:267][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.09.30-13.31.30:269][422]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:636][423]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:671][424]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:708][425]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:777][426]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:871][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:934][428]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.30:965][429]LogContentBrowser: Attempting asset rename: NewFolder -> Player
+[2023.09.30-13.31.30:966][429]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.30-13.31.31:015][429]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:078][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:167][431]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:249][432]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:291][433]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:337][434]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:367][435]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:401][436]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:520][437]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:596][438]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:725][439]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.31:863][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.32:000][448]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.53:985][994]LogLinker: Warning: [AssetLog] Z:\Unreal\LDJam54\Content\UI\WB_MainMenu.uasset: Failed to load '/Game/Menus/WB_OptionMenu': Can't find file.
+[2023.09.30-13.31.53:985][994]LogLinker: Warning: [AssetLog] Z:\Unreal\LDJam54\Content\UI\WB_MainMenu.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Menus/WB_OptionMenu'
+[2023.09.30-13.31.53:996][994]LogBlueprint: Error: [AssetLog] Z:\Unreal\LDJam54\Content\UI\WB_MainMenu.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2023.09.30-13.31.54:000][994]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WB_MainMenu.WB_MainMenu
+[2023.09.30-13.31.54:001][994]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.54:001][994]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.31.54:006][994]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.31.54:006][994]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.31.54:013][994]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.09.30-13.31.54:017][994]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2023.09.30-13.31.55:137][994]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.09.30-13.31.55:149][994]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.09.30-13.32.25:341][477]LogEditorClassViewer: Warning: Class /Game/UI/WB_MainMenu.PLACEHOLDER-CLASS__WB_OptionMenu_C_0 has parent , but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.09.30-13.32.28:774][713]LogSlate: Window 'WB_MainMenu' being destroyed
+[2023.09.30-13.32.28:793][713]LogWorld: UWorld::CleanupWorld for World_165, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.32.28:793][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.32.28:799][713]LogWorld: UWorld::CleanupWorld for World_164, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.32.28:799][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.32.32:330][104]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:385][105]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:415][106]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:443][107]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:472][108]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:500][109]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:528][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:579][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:616][112]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:655][113]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:681][114]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:715][115]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:770][116]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:816][117]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:848][118]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:897][119]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:962][121]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.32:994][122]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:032][123]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:070][124]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:137][125]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:219][130]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:391][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:472][132]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:502][133]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:545][134]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:584][135]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:634][136]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:697][137]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:745][138]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:810][139]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:851][140]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:900][141]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.33:971][142]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:033][146]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:241][147]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:305][148]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:347][149]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:390][150]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:432][151]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:474][152]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:519][153]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:559][154]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.34:597][155]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.32.42:866][ 78]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2023.09.30-13.32.49:338][637]LogAssetEditorSubsystem: Opening Asset editor for WidgetAnimation /Engine/Transient.WidgetAnimation_0
+[2023.09.30-13.32.54:150][965]LogSlate: Window 'IMC_Default' being destroyed
+[2023.09.30-13.33.05:171][687]LogConcert: Display: Synced activity '3' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack locked /Game/UI/WB_MainMenu.
+[2023.09.30-13.33.11:445][281]LogAssetEditorSubsystem: Opening Asset editor for WidgetAnimation /Engine/Transient.WidgetAnimation_0
+[2023.09.30-13.33.54:351][600]LogConcert: Display: Synced activity '4' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack locked /Game/UI/WB_OptionMenu.
+[2023.09.30-13.34.20:521][888]LogConcert: Display: Synced activity '5' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack locked /Game/UI/WB_PauseMenu.
+[2023.09.30-13.34.21:523][963]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PCG.PCGSettings'
+[2023.09.30-13.34.21:578][964]LogConcert: Display: Synced activity '6' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/Input/IMC_Default.
+[2023.09.30-13.34.27:105][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.34.27:151][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../LDJam54/Content/Input/IMC_Default.uasset" SILENT=true
+[2023.09.30-13.34.27:157][369]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2023.09.30-13.34.27:157][369]LogSavePackage: Moving '../../../../LDJam54/Saved/IMC_Default011914E74DEBE82F568A81BCF1F8F96B.tmp' to '../../../../LDJam54/Content/Input/IMC_Default.uasset'
+[2023.09.30-13.34.27:169][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 22.4 sec)
+[2023.09.30-13.34.27:170][369]AssetCheck: New page: Asset Save: IMC_Default
+[2023.09.30-13.34.27:170][369]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2023.09.30-13.34.27:195][371]LogConcert: Display: Synced activity '7' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/Input/IMC_Default.
+[2023.09.30-13.34.27:195][371]LogConcert: Display: Synced activity '8' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/Input/IMC_Default.
+[2023.09.30-13.34.28:709][505]LogConcert: Display: Synced activity '9' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/WB_PauseMenu.
+[2023.09.30-13.34.28:711][505]LogConcert: Display: Synced activity '10' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack unlocked /Game/UI/WB_PauseMenu.
+[2023.09.30-13.34.30:622][648]LogConcert: Display: Synced activity '11' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack locked /Game/UI/WB_PauseMenu.
+[2023.09.30-13.34.30:906][665]LogConcert: Display: Synced activity '12' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/WB_OptionMenu.
+[2023.09.30-13.34.30:909][665]LogConcert: Display: Synced activity '13' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack unlocked /Game/UI/WB_OptionMenu.
+[2023.09.30-13.34.32:699][791]LogConcert: Display: Synced activity '14' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/MainMenu.
+[2023.09.30-13.34.32:735][792]LightingResults: New page: Lighting Build
+[2023.09.30-13.34.32:750][792]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.34.32:750][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.34.32:751][792]MapCheck: New page: Map Check
+[2023.09.30-13.34.32:751][792]LightingResults: New page: Lighting Build
+[2023.09.30-13.34.32:762][792]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.34.32:770][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.09.30-13.34.32:772][792]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.34.32:772][792]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.34.32:773][792]LogAIModule: Creating AISystem for world Untitled
+[2023.09.30-13.34.32:774][792]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.09.30-13.34.32:788][792]LoadErrors: New page: New Map
+[2023.09.30-13.34.32:796][792]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.34.32:797][792]LogAssetEditorSubsystem: Opening Asset editor for World /Game/UI/MainMenu.MainMenu
+[2023.09.30-13.34.32:798][792]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/UI/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.34.32:798][792]LightingResults: New page: Lighting Build
+[2023.09.30-13.34.32:798][792]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.09.30-13.34.32:810][792]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.34.32:810][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.34.32:810][792]MapCheck: New page: Map Check
+[2023.09.30-13.34.32:810][792]LightingResults: New page: Lighting Build
+[2023.09.30-13.34.32:822][792]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.34.32:824][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.09.30-13.34.32:825][792]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.34.32:825][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.34.32:839][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.09.30-13.34.32:850][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.09.30-13.34.32:857][792]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.09.30-13.34.32:857][792]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.34.32:857][792]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.34.32:857][792]LogAIModule: Creating AISystem for world MainMenu
+[2023.09.30-13.34.32:869][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.34.32:883][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.09.30-13.34.32:886][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.34.32:886][792]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.071ms to complete.
+[2023.09.30-13.34.32:984][793]LogConcert: Display: Synced activity '15' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/Input/IMC_Default.
+[2023.09.30-13.34.34:220][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.34.34:261][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../LDJam54/Content/Input/IMC_Default.uasset" SILENT=true
+[2023.09.30-13.34.34:262][881]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2023.09.30-13.34.34:263][881]LogSavePackage: Moving '../../../../LDJam54/Saved/IMC_Default073A10BA4E63790726A0FEB02E38CDAA.tmp' to '../../../../LDJam54/Content/Input/IMC_Default.uasset'
+[2023.09.30-13.34.34:279][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 22.4 sec)
+[2023.09.30-13.34.34:285][881]AssetCheck: New page: Asset Save: IMC_Default
+[2023.09.30-13.34.34:285][881]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2023.09.30-13.34.34:312][884]LogConcert: Display: Synced activity '16' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/Input/IMC_Default.
+[2023.09.30-13.34.34:313][884]LogConcert: Display: Synced activity '17' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/Input/IMC_Default.
+[2023.09.30-13.34.34:313][884]LogConcert: Display: Synced activity '18' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack locked /Game/UI/WB_OptionMenu.
+[2023.09.30-13.34.34:432][895]LogConcert: Display: Synced activity '19' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/WB_MainMenu.
+[2023.09.30-13.34.34:434][895]LogConcert: Display: Synced activity '20' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack unlocked /Game/UI/WB_MainMenu.
+[2023.09.30-13.34.34:460][896]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/UI/WB_MainMenu
+[2023.09.30-13.34.34:472][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.09.30-13.34.34:879][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.09.30-13.34.38:479][103]LogConcert: Display: Synced activity '21' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/Input/IMC_Default.
+[2023.09.30-13.34.53:668][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.34.53:712][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../LDJam54/Content/Input/IMC_Default.uasset" SILENT=true
+[2023.09.30-13.34.53:714][235]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2023.09.30-13.34.53:714][235]LogSavePackage: Moving '../../../../LDJam54/Saved/IMC_DefaultD81D200348E8C6B27395EB8BF7D49BE3.tmp' to '../../../../LDJam54/Content/Input/IMC_Default.uasset'
+[2023.09.30-13.34.53:730][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 22.5 sec)
+[2023.09.30-13.34.53:733][235]AssetCheck: New page: Asset Save: IMC_Default
+[2023.09.30-13.34.53:733][235]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2023.09.30-13.34.53:756][237]LogConcert: Display: Synced activity '22' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/Input/IMC_Default.
+[2023.09.30-13.34.53:756][237]LogConcert: Display: Synced activity '23' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/Input/IMC_Default.
+[2023.09.30-13.34.54:338][281]LogSlate: Window 'IMC_Default' being destroyed
+[2023.09.30-13.35.05:944][590]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.30-13.35.05:954][590]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.30-13.35.05:962][591]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.30-13.35.06:834][695]LogContentBrowser: Attempting asset rename: NewFolder -> Fonts
+[2023.09.30-13.35.06:834][695]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.30-13.35.21:676][949]LogConcert: Display: Synced activity '24' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack locked /Game/UI/WB_MainMenu.
+[2023.09.30-13.36.30:866][175]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 D:\Downloads\Fonts\friendlyscribbles\friendlyscribbles.ttf)
+[2023.09.30-13.36.35:257][175]LogSlate: Window 'Font Face Import Options' being destroyed
+[2023.09.30-13.36.35:260][175]Message dialog closed, result: YesAll, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2023.09.30-13.36.35:269][175]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2023.09.30-13.36.35:293][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.36.35:295][176]LogConcert: Display: Synced activity '25' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/friendlyscribbles_Font.
+[2023.09.30-13.36.35:296][176]LogConcert: Display: Synced activity '26' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/friendlyscribbles_Font.
+[2023.09.30-13.36.35:296][176]LogConcert: Display: Synced activity '27' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/friendlyscribbles.
+[2023.09.30-13.36.35:297][176]LogConcert: Display: Synced activity '28' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/friendlyscribbles.
+[2023.09.30-13.36.35:297][176]LogConcert: Display: Synced activity '29' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/friendlyscribbles.
+[2023.09.30-13.36.35:300][176]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-13.36.35:300][176]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/friendlyscribbles_Font.friendlyscribbles_Font
+[2023.09.30-13.36.35:300][176]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/friendlyscribbles.friendlyscribbles
+[2023.09.30-13.36.35:301][176]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.30-13.36.35:302][176]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.09.30-13.36.35:303][176]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.09.30-13.36.35:305][176]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.09.30-13.36.35:318][177]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.30-13.36.59:982][850]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 D:\Downloads\Fonts\Kaph_Font_1_10\TrueType (.ttf)\Kaph-Italic.ttf)
+[2023.09.30-13.37.09:948][850]LogSlate: Window 'Font Face Import Options' being destroyed
+[2023.09.30-13.37.09:950][850]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2023.09.30-13.37.09:958][850]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2023.09.30-13.37.09:976][850]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 D:\Downloads\Fonts\Kaph_Font_1_10\TrueType (.ttf)\Kaph-Regular.ttf)
+[2023.09.30-13.37.10:025][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.37.10:027][850]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.30-13.37.10:706][850]LogSlate: Window 'Font Face Import Options' being destroyed
+[2023.09.30-13.37.10:709][850]Message dialog closed, result: No, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2023.09.30-13.37.10:710][850]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2023.09.30-13.37.10:741][850]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.09.30-13.37.10:742][850]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.09.30-13.37.10:744][850]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.09.30-13.37.10:745][850]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.30-13.37.10:753][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.37.10:756][851]LogConcert: Display: Synced activity '30' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/Kaph-Italic_Font.
+[2023.09.30-13.37.10:756][851]LogConcert: Display: Synced activity '31' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Italic_Font.
+[2023.09.30-13.37.10:757][851]LogConcert: Display: Synced activity '32' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.10:759][851]LogConcert: Display: Synced activity '33' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.10:759][851]LogConcert: Display: Synced activity '34' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.10:760][851]LogConcert: Display: Synced activity '35' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.10:761][851]LogConcert: Display: Synced activity '36' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.10:761][851]LogConcert: Display: Synced activity '37' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.10:762][851]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-13.37.10:762][851]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/Kaph-Italic_Font.Kaph-Italic_Font
+[2023.09.30-13.37.10:762][851]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/Kaph-Italic.Kaph-Italic
+[2023.09.30-13.37.10:762][851]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/Kaph-Regular.Kaph-Regular
+[2023.09.30-13.37.10:762][851]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.30-13.37.10:764][851]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.09.30-13.37.10:764][851]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.09.30-13.37.10:767][851]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.09.30-13.37.10:768][851]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.30-13.37.18:626][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.09.30-13.37.19:301][716]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.30-13.37.19:322][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.09.30-13.37.19:334][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.09.30-13.37.19:345][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.09.30-13.37.19:362][718]LogConcert: Display: Synced activity '38' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.19:363][718]LogConcert: Display: Synced activity '39' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae deleted package /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.19:363][718]LogConcert: Display: Synced activity '40' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.19:364][718]LogConcert: Display: Synced activity '41' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae deleted package /Game/UI/Fonts/Kaph-Italic_Font.
+[2023.09.30-13.37.19:364][718]LogConcert: Display: Synced activity '42' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Italic_Font.
+[2023.09.30-13.37.19:364][718]LogConcert: Display: Synced activity '43' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.19:364][718]LogConcert: Display: Synced activity '44' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae deleted package /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.19:365][718]LogConcert: Display: Synced activity '45' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.21:579][826]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 D:\Downloads\Fonts\Kaph_Font_1_10\TrueType (.ttf)\Kaph-Italic.ttf)
+[2023.09.30-13.37.23:422][826]LogSlate: Window 'Font Face Import Options' being destroyed
+[2023.09.30-13.37.23:442][826]Message dialog closed, result: YesAll, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2023.09.30-13.37.23:449][826]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2023.09.30-13.37.23:465][826]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 D:\Downloads\Fonts\Kaph_Font_1_10\TrueType (.ttf)\Kaph-Regular.ttf)
+[2023.09.30-13.37.23:505][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.37.23:507][827]LogConcert: Display: Synced activity '46' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/Kaph-Italic_Font.
+[2023.09.30-13.37.23:507][827]LogConcert: Display: Synced activity '47' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Italic_Font.
+[2023.09.30-13.37.23:509][827]LogConcert: Display: Synced activity '48' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.23:510][827]LogConcert: Display: Synced activity '49' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.23:510][827]LogConcert: Display: Synced activity '50' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.23:510][827]LogConcert: Display: Synced activity '51' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/Kaph-Regular_Font.
+[2023.09.30-13.37.23:510][827]LogConcert: Display: Synced activity '52' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Regular_Font.
+[2023.09.30-13.37.23:511][827]LogConcert: Display: Synced activity '53' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.23:512][827]LogConcert: Display: Synced activity '54' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.23:512][827]LogConcert: Display: Synced activity '55' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.23:515][827]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-13.37.23:515][827]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/Kaph-Italic_Font.Kaph-Italic_Font
+[2023.09.30-13.37.23:515][827]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/Kaph-Italic.Kaph-Italic
+[2023.09.30-13.37.23:515][827]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/Kaph-Regular_Font.Kaph-Regular_Font
+[2023.09.30-13.37.23:515][827]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/Kaph-Regular.Kaph-Regular
+[2023.09.30-13.37.23:516][827]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.30-13.37.23:517][827]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.09.30-13.37.23:518][827]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.09.30-13.37.23:520][827]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.09.30-13.37.23:521][827]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.30-13.37.40:383][246]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 D:\Downloads\Fonts\Shantell_Sans\ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf)
+[2023.09.30-13.37.41:737][246]LogSlate: Window 'Font Face Import Options' being destroyed
+[2023.09.30-13.37.41:740][246]Message dialog closed, result: YesAll, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2023.09.30-13.37.41:746][246]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2023.09.30-13.37.41:819][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.37.41:822][247]LogConcert: Display: Synced activity '56' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.
+[2023.09.30-13.37.41:822][247]LogConcert: Display: Synced activity '57' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.
+[2023.09.30-13.37.41:822][247]LogConcert: Display: Synced activity '58' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.
+[2023.09.30-13.37.41:825][247]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-13.37.41:825][247]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font
+[2023.09.30-13.37.41:825][247]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.ShantellSans-VariableFont_BNCE_INFM_SPAC_wght
+[2023.09.30-13.37.41:827][247]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.30-13.37.41:828][247]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.09.30-13.37.41:828][247]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.09.30-13.37.41:830][247]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.09.30-13.37.41:831][247]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.30-13.37.41:899][255]LogConcert: Display: Synced activity '59' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.
+[2023.09.30-13.37.41:899][255]LogConcert: Display: Synced activity '60' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.
+[2023.09.30-13.37.49:989][202]LogContentBrowser: Attempting asset rename: ShantellSans-VariableFont_BNCE_INFM_SPAC_wght -> ShantellSans
+[2023.09.30-13.37.50:017][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.37.50:039][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/ShantellSans" FILE="../../../../LDJam54/Content/UI/Fonts/ShantellSans.uasset" SILENT=true
+[2023.09.30-13.37.50:040][202]LogSavePackage: Moving output files for package: /Game/UI/Fonts/ShantellSans
+[2023.09.30-13.37.50:040][202]LogSavePackage: Moving '../../../../LDJam54/Saved/ShantellSans841BFCEF4FA368D4F8B6D28B82CDFF18.tmp' to '../../../../LDJam54/Content/UI/Fonts/ShantellSans.uasset'
+[2023.09.30-13.37.50:042][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght" FILE="../../../../LDJam54/Content/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.uasset" SILENT=true
+[2023.09.30-13.37.50:042][202]LogSavePackage: Moving output files for package: /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght
+[2023.09.30-13.37.50:043][202]LogSavePackage: Moving '../../../../LDJam54/Saved/ShantellSans-VariableFont_BNCE_I71BE3D66429439D90CE1EB80F852BB09.tmp' to '../../../../LDJam54/Content/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.uasset'
+[2023.09.30-13.37.50:058][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 22.5 sec)
+[2023.09.30-13.37.50:059][202]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-13.37.50:060][202]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/ShantellSans.ShantellSans
+[2023.09.30-13.37.50:060][202]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.ShantellSans-VariableFont_BNCE_INFM_SPAC_wght
+[2023.09.30-13.37.50:067][203]LogConcert: Display: Synced activity '61' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.
+[2023.09.30-13.37.50:067][203]LogConcert: Display: Synced activity '62' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/ShantellSans.
+[2023.09.30-13.37.50:243][217]LogConcert: Display: Synced activity '63' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/ShantellSans.
+[2023.09.30-13.37.50:243][217]LogConcert: Display: Synced activity '64' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/ShantellSans.
+[2023.09.30-13.37.50:244][217]LogConcert: Display: Synced activity '65' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae renamed package /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght to /Game/UI/Fonts/ShantellSans.
+[2023.09.30-13.37.50:244][217]LogConcert: Display: Synced activity '66' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght.
+[2023.09.30-13.37.51:825][396]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.37.51:859][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/friendlyscribbles" FILE="../../../../LDJam54/Content/UI/Fonts/friendlyscribbles.uasset" SILENT=true
+[2023.09.30-13.37.51:860][396]LogSavePackage: Moving output files for package: /Game/UI/Fonts/friendlyscribbles
+[2023.09.30-13.37.51:860][396]LogSavePackage: Moving '../../../../LDJam54/Saved/friendlyscribblesC0A28A7D4DFCF9453CD2F29EE820CB58.tmp' to '../../../../LDJam54/Content/UI/Fonts/friendlyscribbles.uasset'
+[2023.09.30-13.37.51:865][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/friendlyscribbles_Font" FILE="../../../../LDJam54/Content/UI/Fonts/friendlyscribbles_Font.uasset" SILENT=true
+[2023.09.30-13.37.51:866][396]LogSavePackage: Moving output files for package: /Game/UI/Fonts/friendlyscribbles_Font
+[2023.09.30-13.37.51:867][396]LogSavePackage: Moving '../../../../LDJam54/Saved/friendlyscribbles_Font97F2647142A2F2C6D4363BAB823916EA.tmp' to '../../../../LDJam54/Content/UI/Fonts/friendlyscribbles_Font.uasset'
+[2023.09.30-13.37.51:868][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/Kaph-Italic" FILE="../../../../LDJam54/Content/UI/Fonts/Kaph-Italic.uasset" SILENT=true
+[2023.09.30-13.37.51:868][396]LogSavePackage: Moving output files for package: /Game/UI/Fonts/Kaph-Italic
+[2023.09.30-13.37.51:869][396]LogSavePackage: Moving '../../../../LDJam54/Saved/Kaph-Italic6B35B36A4FFA0E3A0FC280B38B8C4245.tmp' to '../../../../LDJam54/Content/UI/Fonts/Kaph-Italic.uasset'
+[2023.09.30-13.37.51:873][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/Kaph-Italic_Font" FILE="../../../../LDJam54/Content/UI/Fonts/Kaph-Italic_Font.uasset" SILENT=true
+[2023.09.30-13.37.51:874][396]LogSavePackage: Moving output files for package: /Game/UI/Fonts/Kaph-Italic_Font
+[2023.09.30-13.37.51:875][396]LogSavePackage: Moving '../../../../LDJam54/Saved/Kaph-Italic_Font468E408C4790C3B8B459E997E7AB906B.tmp' to '../../../../LDJam54/Content/UI/Fonts/Kaph-Italic_Font.uasset'
+[2023.09.30-13.37.51:876][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/Kaph-Regular" FILE="../../../../LDJam54/Content/UI/Fonts/Kaph-Regular.uasset" SILENT=true
+[2023.09.30-13.37.51:877][396]LogSavePackage: Moving output files for package: /Game/UI/Fonts/Kaph-Regular
+[2023.09.30-13.37.51:877][396]LogSavePackage: Moving '../../../../LDJam54/Saved/Kaph-Regular4CA08B194F7D650204A2C2AADDB0AE6A.tmp' to '../../../../LDJam54/Content/UI/Fonts/Kaph-Regular.uasset'
+[2023.09.30-13.37.51:883][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/Kaph-Regular_Font" FILE="../../../../LDJam54/Content/UI/Fonts/Kaph-Regular_Font.uasset" SILENT=true
+[2023.09.30-13.37.51:884][396]LogSavePackage: Moving output files for package: /Game/UI/Fonts/Kaph-Regular_Font
+[2023.09.30-13.37.51:884][396]LogSavePackage: Moving '../../../../LDJam54/Saved/Kaph-Regular_Font491E86D0435E13F7606DB18B0360430B.tmp' to '../../../../LDJam54/Content/UI/Fonts/Kaph-Regular_Font.uasset'
+[2023.09.30-13.37.51:885][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/ShantellSans" FILE="../../../../LDJam54/Content/UI/Fonts/ShantellSans.uasset" SILENT=true
+[2023.09.30-13.37.51:885][396]LogSavePackage: Moving output files for package: /Game/UI/Fonts/ShantellSans
+[2023.09.30-13.37.51:886][396]LogSavePackage: Moving '../../../../LDJam54/Saved/ShantellSans7C3FC2C74F6B63D2D477119C97C0E502.tmp' to '../../../../LDJam54/Content/UI/Fonts/ShantellSans.uasset'
+[2023.09.30-13.37.51:889][396]LogSavePackage: Moving output files for package: /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font
+[2023.09.30-13.37.51:890][396]LogSavePackage: Moving '../../../../LDJam54/Saved/ShantellSans-VariableFont_BNCE_I52DAC7E64E68C7C06B1A2294B29FBCC8.tmp' to '../../../../LDJam54/Content/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.uasset'
+[2023.09.30-13.37.51:900][396]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 22.6 sec)
+[2023.09.30-13.37.51:903][396]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-13.37.51:903][396]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/friendlyscribbles.friendlyscribbles
+[2023.09.30-13.37.51:903][396]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/friendlyscribbles_Font.friendlyscribbles_Font
+[2023.09.30-13.37.51:904][396]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/Kaph-Italic.Kaph-Italic
+[2023.09.30-13.37.51:904][396]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/Kaph-Italic_Font.Kaph-Italic_Font
+[2023.09.30-13.37.51:904][396]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/Kaph-Regular.Kaph-Regular
+[2023.09.30-13.37.51:904][396]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/Kaph-Regular_Font.Kaph-Regular_Font
+[2023.09.30-13.37.51:904][396]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/UI/Fonts/ShantellSans.ShantellSans
+[2023.09.30-13.37.51:904][396]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font
+[2023.09.30-13.37.51:996][398]LogConcert: Display: Synced activity '67' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/friendlyscribbles.
+[2023.09.30-13.37.51:996][398]LogConcert: Display: Synced activity '68' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/friendlyscribbles_Font.
+[2023.09.30-13.37.51:996][398]LogConcert: Display: Synced activity '69' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/friendlyscribbles_Font.
+[2023.09.30-13.37.51:997][398]LogConcert: Display: Synced activity '70' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/Kaph-Italic.
+[2023.09.30-13.37.51:997][398]LogConcert: Display: Synced activity '71' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/Kaph-Italic_Font.
+[2023.09.30-13.37.51:997][398]LogConcert: Display: Synced activity '72' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Italic_Font.
+[2023.09.30-13.37.51:998][398]LogConcert: Display: Synced activity '73' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/Kaph-Regular.
+[2023.09.30-13.37.51:999][398]LogConcert: Display: Synced activity '74' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/Kaph-Regular_Font.
+[2023.09.30-13.37.51:999][398]LogConcert: Display: Synced activity '75' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/Kaph-Regular_Font.
+[2023.09.30-13.37.52:102][409]LogConcert: Display: Synced activity '76' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/ShantellSans.
+[2023.09.30-13.37.52:102][409]LogConcert: Display: Synced activity '77' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.
+[2023.09.30-13.37.52:102][409]LogConcert: Display: Synced activity '78' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.
+[2023.09.30-13.38.02:229][507]LogContentBrowser: Attempting asset rename: ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font -> ShantellSans_Font
+[2023.09.30-13.38.02:256][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.38.02:282][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Fonts/ShantellSans_Font" FILE="../../../../LDJam54/Content/UI/Fonts/ShantellSans_Font.uasset" SILENT=true
+[2023.09.30-13.38.02:283][507]LogSavePackage: Moving output files for package: /Game/UI/Fonts/ShantellSans_Font
+[2023.09.30-13.38.02:283][507]LogSavePackage: Moving '../../../../LDJam54/Saved/ShantellSans_Font9BD7A35245F6BAF140F96D8E34904571.tmp' to '../../../../LDJam54/Content/UI/Fonts/ShantellSans_Font.uasset'
+[2023.09.30-13.38.02:285][507]LogSavePackage: Moving output files for package: /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font
+[2023.09.30-13.38.02:285][507]LogSavePackage: Moving '../../../../LDJam54/Saved/ShantellSans-VariableFont_BNCE_I4AC7510E4D686D7E89B3DFB1874468C7.tmp' to '../../../../LDJam54/Content/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.uasset'
+[2023.09.30-13.38.02:300][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 22.7 sec)
+[2023.09.30-13.38.02:301][507]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-13.38.02:301][507]LogContentValidation: Display: Validating /Script/Engine.Font /Game/UI/Fonts/ShantellSans_Font.ShantellSans_Font
+[2023.09.30-13.38.02:301][507]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font
+[2023.09.30-13.38.02:309][508]LogConcert: Display: Synced activity '79' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.
+[2023.09.30-13.38.02:309][508]LogConcert: Display: Synced activity '80' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae locked /Game/UI/Fonts/ShantellSans_Font.
+[2023.09.30-13.38.02:335][511]LogConcert: Display: Synced activity '81' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/UI/Fonts/ShantellSans_Font.
+[2023.09.30-13.38.02:335][511]LogConcert: Display: Synced activity '82' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/ShantellSans_Font.
+[2023.09.30-13.38.02:336][511]LogConcert: Display: Synced activity '83' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae renamed package /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font to /Game/UI/Fonts/ShantellSans_Font.
+[2023.09.30-13.38.02:336][511]LogConcert: Display: Synced activity '84' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae unlocked /Game/UI/Fonts/ShantellSans-VariableFont_BNCE_INFM_SPAC_wght_Font.
+[2023.09.30-13.38.05:361][872]LogConcert: Display: Synced activity '85' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/WB_PauseMenu.
+[2023.09.30-13.38.05:362][872]LogConcert: Display: Synced activity '86' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack unlocked /Game/UI/WB_PauseMenu.
+[2023.09.30-13.38.14:164][729]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/UI/Fonts/friendlyscribbles_Font.friendlyscribbles_Font
+[2023.09.30-13.38.14:285][729]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.09.30-13.38.14:286][729]LogViewport: Scene viewport resized to 1240x82, mode Windowed.
+[2023.09.30-13.38.17:057][969]LogSlate: Window 'friendlyscribbles_Font' being destroyed
+[2023.09.30-13.38.35:666][561]LogDerivedDataCache: C:/Users/shane/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.124 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 8934 files in 11425 folders with total size 373 MiB.
+[2023.09.30-13.39.43:753][766]LogConcert: Display: Synced activity '87' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/WB_OptionMenu.
+[2023.09.30-13.39.43:753][766]LogConcert: Display: Synced activity '88' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack unlocked /Game/UI/WB_OptionMenu.
+[2023.09.30-13.39.44:422][768]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/UI/WB_OptionMenu
+[2023.09.30-13.39.44:439][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.09.30-13.39.44:861][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.09.30-13.39.47:692][777]LogConcert: Display: Synced activity '89' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/WB_MainMenu.
+[2023.09.30-13.39.47:693][777]LogConcert: Display: Synced activity '90' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack unlocked /Game/UI/WB_MainMenu.
+[2023.09.30-13.39.48:026][778]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/UI/WB_MainMenu
+[2023.09.30-13.39.48:038][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.09.30-13.39.48:047][778]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'WB_MainMenu_C:ComponentDelegateBinding_1' in the new package '/Game/UI/WB_MainMenu'. Any existing references to this object will be nulled out.
+[2023.09.30-13.39.48:400][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.09.30-13.39.55:094][799]LogConcert: Display: Synced activity '91' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/WB_MainMenu.
+[2023.09.30-13.39.55:431][800]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/UI/WB_MainMenu
+[2023.09.30-13.39.55:442][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.09.30-13.39.55:806][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.09.30-13.39.58:832][810]LogConcert: Display: Synced activity '92' produced by endpoint '3AEEC277854F787774E4BAB838C27D1A': Jack saved package /Game/UI/WB_MainMenu.
+[2023.09.30-13.39.59:501][812]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/UI/WB_MainMenu
+[2023.09.30-13.39.59:514][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.30-13.39.59:885][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.09.30-13.40.30:870][799]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.09.30-13.40.30:875][799]LogContentBrowser: Creating deferred item: NewWorld
+[2023.09.30-13.40.30:882][800]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.09.30-13.40.49:727][ 47]LogContentBrowser: Attempting asset rename: NewWorld -> Map_00
+[2023.09.30-13.40.49:727][ 47]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.40.49:727][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.40.49:745][ 47]LogContentBrowser: End creating deferred item NewWorld
+[2023.09.30-13.40.49:746][ 47]AssetCheck: New page: Asset Save: Map_00
+[2023.09.30-13.40.49:746][ 47]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.40.49:755][ 48]LogConcert: Display: Synced activity '93' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae added package /Game/Maps/Map_00.
+[2023.09.30-13.40.51:260][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-13.40.51:297][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_00" FILE="../../../../LDJam54/Content/Maps/Map_00.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.30-13.40.51:309][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.09.30-13.40.51:312][222]LogSavePackage: Moving output files for package: /Game/Maps/Map_00
+[2023.09.30-13.40.51:312][222]LogSavePackage: Moving '../../../../LDJam54/Saved/Map_0075D33A4444485FA4A4465DA4F9028CF9.tmp' to '../../../../LDJam54/Content/Maps/Map_00.umap'
+[2023.09.30-13.40.51:318][222]LogFileHelpers: Saving map 'Map_00' took 0.021
+[2023.09.30-13.40.51:327][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 22.7 sec)
+[2023.09.30-13.40.51:328][222]AssetCheck: New page: Asset Save: Map_00
+[2023.09.30-13.40.51:328][222]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.40.51:360][226]LogConcert: Display: Synced activity '94' produced by endpoint '90D82BBF4DC955E3825C1AA5F36B4ED1': hsnae saved package /Game/Maps/Map_00.
+[2023.09.30-13.40.52:385][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.09.30-13.40.52:387][340]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_00.Map_00
+[2023.09.30-13.40.52:387][340]Cmd: MAP LOAD FILE="../../../../LDJam54/Content/Maps/Map_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-13.40.52:387][340]LightingResults: New page: Lighting Build
+[2023.09.30-13.40.52:387][340]LoadErrors: New page: Loading map: Map_00.umap
+[2023.09.30-13.40.52:402][340]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.40.52:402][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.40.52:402][340]MapCheck: New page: Map Check
+[2023.09.30-13.40.52:402][340]LightingResults: New page: Lighting Build
+[2023.09.30-13.40.52:412][340]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-13.40.52:414][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.09.30-13.40.52:415][340]LogWorld: UWorld::CleanupWorld for Map_00, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-13.40.52:416][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-13.40.52:427][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.09.30-13.40.52:439][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.09.30-13.40.52:441][340]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_00'.
+[2023.09.30-13.40.52:441][340]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.40.52:441][340]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-13.40.52:442][340]LogAIModule: Creating AISystem for world Map_00
+[2023.09.30-13.40.52:454][340]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-13.40.52:466][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.09.30-13.40.52:470][340]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-13.40.52:470][340]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.088ms to complete.
+[2023.09.30-13.41.29:419][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.09.30-13.41.45:136][796]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.41.45:162][797]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-13.41.47:726][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
