@@ -1561,3 +1561,93 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.30-19.30.38:171][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 1.63 sec)
 [2023.09.30-19.30.38:173][592]AssetCheck: New page: Asset Save: Map_00
 [2023.09.30-19.30.38:173][592]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_00.Map_00
+[2023.09.30-19.31.40:938][541]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-19.31.40:967][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/General/Meshes/M_Box" FILE="../../../../LDJam54/Content/Props/General/Meshes/M_Box.uasset" SILENT=true
+[2023.09.30-19.31.40:969][541]LogSavePackage: Moving output files for package: /Game/Props/General/Meshes/M_Box
+[2023.09.30-19.31.40:969][541]LogSavePackage: Moving '../../../../LDJam54/Saved/M_Box7E82E0624EC3EC51E3FCF897491A0809.tmp' to '../../../../LDJam54/Content/Props/General/Meshes/M_Box.uasset'
+[2023.09.30-19.31.40:970][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/General/Textures/Caja_Color" FILE="../../../../LDJam54/Content/Props/General/Textures/Caja_Color.uasset" SILENT=true
+[2023.09.30-19.31.40:995][541]LogSavePackage: Moving output files for package: /Game/Props/General/Textures/Caja_Color
+[2023.09.30-19.31.40:995][541]LogSavePackage: Moving '../../../../LDJam54/Saved/Caja_Color1AC27FA34BD79532DFA46198634FBA38.tmp' to '../../../../LDJam54/Content/Props/General/Textures/Caja_Color.uasset'
+[2023.09.30-19.31.41:007][541]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 1.70 sec)
+[2023.09.30-19.31.41:014][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.30-19.31.41:018][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.09.30-19.31.41:021][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.09.30-19.31.41:033][541]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-19.31.41:033][541]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Props/General/Meshes/M_Box.M_Box
+[2023.09.30-19.31.41:033][541]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Props/General/Textures/Caja_Color.Caja_Color
+[2023.09.30-19.31.48:107][770]LogInterchangeEngine: [Pending] Importing
+[2023.09.30-19.31.48:107][770]LogInterchangeEngine: Display: Interchange start importing source [D:/Downloads/Assets/...-free-agustin-honnun/Caja_Specular.png]
+[2023.09.30-19.31.48:125][771]LogInterchangeEngine: [Pending] Importing
+[2023.09.30-19.31.48:455][771]LogTexture: Display: Building textures: /Game/Props/General/Textures/Caja_Specular.Caja_Specular (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.09.30-19.31.48:457][771]LogInterchangeEngine: [Success] Import Done
+[2023.09.30-19.31.48:470][772]LogInterchangeEngine: [Success] Import Done
+[2023.09.30-19.31.52:121][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-19.31.52:202][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/General/Textures/Caja_Specular" FILE="../../../../LDJam54/Content/Props/General/Textures/Caja_Specular.uasset" SILENT=true
+[2023.09.30-19.31.52:244][867]LogSavePackage: Moving output files for package: /Game/Props/General/Textures/Caja_Specular
+[2023.09.30-19.31.52:244][867]LogSavePackage: Moving '../../../../LDJam54/Saved/Caja_SpecularFDAD7C6848E88098C9388FB70F91A2F7.tmp' to '../../../../LDJam54/Content/Props/General/Textures/Caja_Specular.uasset'
+[2023.09.30-19.31.52:278][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 1.86 sec)
+[2023.09.30-19.31.52:278][867]AssetCheck: New page: Asset Save: Caja_Specular
+[2023.09.30-19.31.52:278][867]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Props/General/Textures/Caja_Specular.Caja_Specular
+[2023.09.30-19.31.55:167][ 95]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Props/General/Meshes/M_Box.M_Box
+[2023.09.30-19.31.55:171][ 95]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-19.31.55:171][ 95]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-19.31.55:329][ 95]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.30-19.31.55:329][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.09.30-19.31.55:329][ 95]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.31.55:329][ 95]MaterialEditorStats: Shader Count: 0
+[2023.09.30-19.31.55:337][ 95]LogViewport: Scene viewport resized to 324x342, mode Windowed.
+[2023.09.30-19.31.55:399][ 97]MaterialEditorStats: Base pass shader: 194 instructions
+[2023.09.30-19.31.55:399][ 97]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.09.30-19.31.55:399][ 97]MaterialEditorStats: Texture samplers: 3/16
+[2023.09.30-19.31.55:399][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.09.30-19.31.55:399][ 97]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.31.55:399][ 97]MaterialEditorStats: Shader Count: 4
+[2023.09.30-19.31.59:318][351]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.30-19.31.59:318][351]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.09.30-19.31.59:318][351]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.31.59:318][351]MaterialEditorStats: Shader Count: 0
+[2023.09.30-19.31.59:392][353]MaterialEditorStats: Base pass shader: 194 instructions
+[2023.09.30-19.31.59:392][353]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.09.30-19.31.59:392][353]MaterialEditorStats: Texture samplers: 3/16
+[2023.09.30-19.31.59:392][353]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.09.30-19.31.59:392][353]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.31.59:392][353]MaterialEditorStats: Shader Count: 4
+[2023.09.30-19.32.05:023][700]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.30-19.32.05:023][700]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.09.30-19.32.05:023][700]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.32.05:023][700]MaterialEditorStats: Shader Count: 0
+[2023.09.30-19.32.05:454][723]MaterialEditorStats: Texture samplers: 2/16
+[2023.09.30-19.32.05:454][723]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.09.30-19.32.05:454][723]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.32.05:454][723]MaterialEditorStats: Shader Count: 1
+[2023.09.30-19.32.05:546][727]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.09.30-19.32.05:546][727]MaterialEditorStats: Texture samplers: 2/16
+[2023.09.30-19.32.05:546][727]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.09.30-19.32.05:546][727]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.32.05:546][727]MaterialEditorStats: Shader Count: 3
+[2023.09.30-19.32.05:659][733]MaterialEditorStats: Base pass shader: 197 instructions
+[2023.09.30-19.32.05:659][733]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.09.30-19.32.05:659][733]MaterialEditorStats: Texture samplers: 4/16
+[2023.09.30-19.32.05:659][733]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.09.30-19.32.05:659][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.32.05:659][733]MaterialEditorStats: Shader Count: 4
+[2023.09.30-19.32.08:600][965]LogMaterialEditor: Saving and Compiling material M_Box
+[2023.09.30-19.32.08:734][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.30-19.32.09:111][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.09.30-19.32.09:127][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-19.32.10:146][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/General/Meshes/M_Box" FILE="../../../../LDJam54/Content/Props/General/Meshes/M_Box.uasset" SILENT=true
+[2023.09.30-19.32.10:148][965]LogSavePackage: Moving output files for package: /Game/Props/General/Meshes/M_Box
+[2023.09.30-19.32.10:149][965]LogSavePackage: Moving '../../../../LDJam54/Saved/M_Box70F6BDB84FC11841F17DCDB2040C589A.tmp' to '../../../../LDJam54/Content/Props/General/Meshes/M_Box.uasset'
+[2023.09.30-19.32.10:159][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.03 sec (total: 2.89 sec)
+[2023.09.30-19.32.10:160][965]AssetCheck: New page: Asset Save: M_Box
+[2023.09.30-19.32.10:160][965]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Props/General/Meshes/M_Box.M_Box
+[2023.09.30-19.32.10:160][965]MaterialEditorStats: Base pass shader: 197 instructions
+[2023.09.30-19.32.10:160][965]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.09.30-19.32.10:160][965]MaterialEditorStats: MaxSampler: 246 instructions
+[2023.09.30-19.32.10:160][965]MaterialEditorStats: Texture samplers: 5/16
+[2023.09.30-19.32.10:161][965]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.09.30-19.32.10:161][965]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.09.30-19.32.10:161][965]MaterialEditorStats: Shader Count: 16
+[2023.09.30-19.32.12:058][ 79]LogSlate: Window 'M_Box' being destroyed
+[2023.09.30-19.32.12:085][ 79]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-19.32.12:085][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
